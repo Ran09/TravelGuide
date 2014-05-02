@@ -1,0 +1,2148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040AB1ED18F0876A00AC2686 /* webImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 040AB1EA18F0876A00AC2686 /* webImg.png */; };
+		041998471910F98600B2508F /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 041998461910F98600B2508F /* MapPoint.m */; };
+		043087B118EB49340017469D /* cityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043087AF18EB49340017469D /* cityDetailViewController.m */; };
+		043087B218EB49340017469D /* cityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043087B018EB49340017469D /* cityDetailViewController.xib */; };
+		043795EB1903B3F100EEA9CD /* tempDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 043795EA1903B3F100EEA9CD /* tempDataBase.m */; };
+		0439193F190EC36F0028787C /* cafe-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439193E190EC36F0028787C /* cafe-71.png */; };
+		044468BE18FC1BA400676C7C /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 044468BD18FC1BA400676C7C /* web.png */; };
+		044468C018FC1BAB00676C7C /* SNP_3005064_en_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 044468BF18FC1BAB00676C7C /* SNP_3005064_en_v1.png */; };
+		044468C218FC1BB000676C7C /* 001442-3d-transparent-glass-icon-media-a-media3.png in Resources */ = {isa = PBXBuildFile; fileRef = 044468C118FC1BB000676C7C /* 001442-3d-transparent-glass-icon-media-a-media3.png */; };
+		04449D3D18F638BB009D4346 /* gaborene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04449D3C18F638BB009D4346 /* gaborene.jpg */; };
+		04449D4018F63AA2009D4346 /* mbujimayi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04449D3F18F63AA2009D4346 /* mbujimayi.jpg */; };
+		0462FA8818DA554000ED0211 /* DownloadGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0462FA8618DA553E00ED0211 /* DownloadGuideViewController.m */; };
+		0462FA8918DA554000ED0211 /* DownloadGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0462FA8718DA553F00ED0211 /* DownloadGuideViewController.xib */; };
+		04649087190E7825001226E7 /* downloadedCityGuidesClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04649085190E7825001226E7 /* downloadedCityGuidesClass.m */; };
+		04649088190E7825001226E7 /* downloadedCityGuidesClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04649086190E7825001226E7 /* downloadedCityGuidesClass.xib */; };
+		046F305318EE1EFF007F98CE /* attr.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F304E18EE1EFF007F98CE /* attr.png */; };
+		046F305418EE1EFF007F98CE /* Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F304F18EE1EFF007F98CE /* Restaurant.png */; };
+		046F305518EE1EFF007F98CE /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046F305018EE1EFF007F98CE /* shopping.jpg */; };
+		046F305618EE1EFF007F98CE /* hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F305118EE1EFF007F98CE /* hotel.png */; };
+		046F305718EE1EFF007F98CE /* night.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F305218EE1EFF007F98CE /* night.png */; };
+		0471B779190ECEDD009E74F0 /* ListDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471B777190ECEDD009E74F0 /* ListDetailView.m */; };
+		0471B77A190ECEDD009E74F0 /* ListDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0471B778190ECEDD009E74F0 /* ListDetailView.xib */; };
+		047D318D190EA4E50026FA14 /* listofviewOfclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 047D318B190EA4E40026FA14 /* listofviewOfclass.m */; };
+		047D318E190EA4E50026FA14 /* listofviewOfclass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047D318C190EA4E40026FA14 /* listofviewOfclass.xib */; };
+		0484F21B190E882F00DE9F10 /* NextViewOfDownloadClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484F219190E882F00DE9F10 /* NextViewOfDownloadClass.m */; };
+		0484F21C190E882F00DE9F10 /* NextViewOfDownloadClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0484F21A190E882F00DE9F10 /* NextViewOfDownloadClass.xib */; };
+		0487184118F1188F00F92DDB /* telephone-icon-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487183E18F1188F00F92DDB /* telephone-icon-grey.png */; };
+		0487184218F1188F00F92DDB /* Adressbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487183F18F1188F00F92DDB /* Adressbook.png */; };
+		0487184618F118A700F92DDB /* contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487184518F118A700F92DDB /* contacts.png */; };
+		0487D11618FEF72A00E44917 /* bar-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487D11118FEF72A00E44917 /* bar-71.png */; };
+		0487D11718FEF72A00E44917 /* generic_business-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487D11218FEF72A00E44917 /* generic_business-71.png */; };
+		0487D11818FEF72A00E44917 /* shopping-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487D11318FEF72A00E44917 /* shopping-71.png */; };
+		0487D11918FEF72A00E44917 /* lodging-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487D11418FEF72A00E44917 /* lodging-71.png */; };
+		0487D11A18FEF72A00E44917 /* restaurant-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487D11518FEF72A00E44917 /* restaurant-71.png */; };
+		048839BC18F309DF00775233 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048839BA18F309DF00775233 /* TableViewController.m */; };
+		048839BD18F309DF00775233 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048839BB18F309DF00775233 /* TableViewController.xib */; };
+		04885A8018EFB53300175576 /* TypeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04885A7E18EFB53300175576 /* TypeDetailViewController.m */; };
+		04885A8118EFB53300175576 /* TypeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04885A7F18EFB53300175576 /* TypeDetailViewController.xib */; };
+		0488FD8818F3A88800DD3D7E /* uipopover+iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488FD8718F3A88800DD3D7E /* uipopover+iphone.m */; };
+		0489C42418D60CAA00578688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489C42318D60CAA00578688 /* UIKit.framework */; };
+		0489C42618D60CAA00578688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489C42518D60CAA00578688 /* Foundation.framework */; };
+		0489C42818D60CAA00578688 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0489C42718D60CAA00578688 /* CoreGraphics.framework */; };
+		0489C42E18D60CAA00578688 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0489C42C18D60CAA00578688 /* InfoPlist.strings */; };
+		0489C43018D60CAA00578688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489C42F18D60CAA00578688 /* main.m */; };
+		0489C43418D60CAA00578688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489C43318D60CAA00578688 /* AppDelegate.m */; };
+		0489C43718D60CAA00578688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489C43618D60CAA00578688 /* ViewController.m */; };
+		0489C43A18D60CAB00578688 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489C43818D60CAB00578688 /* ViewController.xib */; };
+		0489C45418D60E6700578688 /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489C45218D60E6700578688 /* CityViewController.m */; };
+		0489C45518D60E6700578688 /* CityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489C45318D60E6700578688 /* CityViewController.xib */; };
+		0489C45918D6185E00578688 /* cityGuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489C45718D6185C00578688 /* cityGuideController.m */; };
+		0489C45A18D6185E00578688 /* cityGuideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489C45818D6185D00578688 /* cityGuideController.xib */; };
+		048C100118F0626700967E09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048C100018F0626700967E09 /* QuartzCore.framework */; };
+		048C496C18EDDE38001E731F /* mynewdb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 048C496B18EDDE38001E731F /* mynewdb.sqlite */; };
+		048CC40218EC731300EEFED2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CC40118EC731300EEFED2 /* iAd.framework */; };
+		048EA24418F5A0CC0052D030 /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 048EA24318F5A0CC0052D030 /* home_icon.png */; };
+		048F0A8818FD0D0E009E4913 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E2B23818E3EA5800822E0D /* Default.png */; };
+		048FD7C118F5CE4800316AA9 /* abidjan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76918F5CE4800316AA9 /* abidjan.jpg */; };
+		048FD7C218F5CE4800316AA9 /* abobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76A18F5CE4800316AA9 /* abobo.jpg */; };
+		048FD7C318F5CE4800316AA9 /* accra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76B18F5CE4800316AA9 /* accra.jpg */; };
+		048FD7C418F5CE4800316AA9 /* addis_ababa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76C18F5CE4800316AA9 /* addis_ababa.jpg */; };
+		048FD7C518F5CE4800316AA9 /* alexandria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76D18F5CE4800316AA9 /* alexandria.jpg */; };
+		048FD7C618F5CE4800316AA9 /* algiers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76E18F5CE4800316AA9 /* algiers.jpg */; };
+		048FD7C718F5CE4800316AA9 /* annaba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD76F18F5CE4800316AA9 /* annaba.jpg */; };
+		048FD7C818F5CE4800316AA9 /* antananarivo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77018F5CE4800316AA9 /* antananarivo.jpg */; };
+		048FD7C918F5CE4800316AA9 /* asmara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77118F5CE4800316AA9 /* asmara.jpg */; };
+		048FD7CA18F5CE4800316AA9 /* bab_ezzouar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77218F5CE4800316AA9 /* bab_ezzouar.jpg */; };
+		048FD7CB18F5CE4800316AA9 /* bafoussam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77318F5CE4800316AA9 /* bafoussam.jpg */; };
+		048FD7CC18F5CE4800316AA9 /* bamako.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77418F5CE4800316AA9 /* bamako.jpg */; };
+		048FD7CD18F5CE4800316AA9 /* bamenda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77518F5CE4800316AA9 /* bamenda.jpg */; };
+		048FD7CE18F5CE4800316AA9 /* bangui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77618F5CE4800316AA9 /* bangui.jpg */; };
+		048FD7CF18F5CE4800316AA9 /* bata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77718F5CE4800316AA9 /* bata.jpg */; };
+		048FD7D018F5CE4800316AA9 /* batna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77818F5CE4800316AA9 /* batna.jpg */; };
+		048FD7D118F5CE4800316AA9 /* benghazi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77918F5CE4800316AA9 /* benghazi.jpg */; };
+		048FD7D218F5CE4800316AA9 /* benguela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77A18F5CE4800316AA9 /* benguela.jpg */; };
+		048FD7D318F5CE4800316AA9 /* bertoua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77B18F5CE4800316AA9 /* bertoua.jpg */; };
+		048FD7D418F5CE4800316AA9 /* bimbo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77C18F5CE4800316AA9 /* bimbo.jpg */; };
+		048FD7D518F5CE4800316AA9 /* biskra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77D18F5CE4800316AA9 /* biskra.jpg */; };
+		048FD7D618F5CE4800316AA9 /* bissau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77E18F5CE4800316AA9 /* bissau.jpg */; };
+		048FD7D718F5CE4800316AA9 /* blantyre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD77F18F5CE4800316AA9 /* blantyre.jpg */; };
+		048FD7D818F5CE4800316AA9 /* bobodioulasso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78018F5CE4800316AA9 /* bobodioulasso.jpg */; };
+		048FD7D918F5CE4800316AA9 /* boumerdas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78118F5CE4800316AA9 /* boumerdas.jpg */; };
+		048FD7DA18F5CE4800316AA9 /* brazzaville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78218F5CE4800316AA9 /* brazzaville.jpg */; };
+		048FD7DB18F5CE4800316AA9 /* bujumbura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78318F5CE4800316AA9 /* bujumbura.jpg */; };
+		048FD7DC18F5CE4800316AA9 /* cairo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78418F5CE4800316AA9 /* cairo.jpg */; };
+		048FD7DD18F5CE4800316AA9 /* casablanca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78518F5CE4800316AA9 /* casablanca.jpg */; };
+		048FD7DE18F5CE4800316AA9 /* conakry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78618F5CE4800316AA9 /* conakry.jpg */; };
+		048FD7DF18F5CE4800316AA9 /* constantine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78718F5CE4800316AA9 /* constantine.jpg */; };
+		048FD7E018F5CE4800316AA9 /* cotonou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78818F5CE4800316AA9 /* cotonou.jpg */; };
+		048FD7E118F5CE4800316AA9 /* dakar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78918F5CE4800316AA9 /* dakar.jpg */; };
+		048FD7E218F5CE4800316AA9 /* djibouti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78A18F5CE4800316AA9 /* djibouti.jpg */; };
+		048FD7E318F5CE4800316AA9 /* douala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78B18F5CE4800316AA9 /* douala.jpg */; };
+		048FD7E418F5CE4800316AA9 /* fez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78C18F5CE4800316AA9 /* fez.jpg */; };
+		048FD7E518F5CE4800316AA9 /* freetown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78D18F5CE4800316AA9 /* freetown.jpg */; };
+		048FD7E618F5CE4800316AA9 /* garoua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78E18F5CE4800316AA9 /* garoua.jpg */; };
+		048FD7E718F5CE4800316AA9 /* giza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD78F18F5CE4800316AA9 /* giza.jpg */; };
+		048FD7E818F5CE4800316AA9 /* grand_dakar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79018F5CE4800316AA9 /* grand_dakar.jpg */; };
+		048FD7E918F5CE4800316AA9 /* hargeysa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79118F5CE4800316AA9 /* hargeysa.jpg */; };
+		048FD7EA18F5CE4800316AA9 /* huambo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79218F5CE4800316AA9 /* huambo.jpg */; };
+		048FD7EB18F5CE4800316AA9 /* ibadan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79318F5CE4800316AA9 /* ibadan.jpg */; };
+		048FD7EC18F5CE4800316AA9 /* juba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79418F5CE4800316AA9 /* juba.jpg */; };
+		048FD7ED18F5CE4800316AA9 /* kano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79518F5CE4800316AA9 /* kano.jpg */; };
+		048FD7EE18F5CE4800316AA9 /* khartoum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79618F5CE4800316AA9 /* khartoum.jpg */; };
+		048FD7EF18F5CE4800316AA9 /* kigali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79718F5CE4800316AA9 /* kigali.jpg */; };
+		048FD7F018F5CE4800316AA9 /* kinshasa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79818F5CE4800316AA9 /* kinshasa.jpg */; };
+		048FD7F118F5CE4800316AA9 /* kisangani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79918F5CE4800316AA9 /* kisangani.jpg */; };
+		048FD7F218F5CE4800316AA9 /* koudougou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79A18F5CE4800316AA9 /* koudougou.jpg */; };
+		048FD7F318F5CE4800316AA9 /* kousseri.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79B18F5CE4800316AA9 /* kousseri.JPG */; };
+		048FD7F418F5CE4800316AA9 /* kuito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79C18F5CE4800316AA9 /* kuito.jpg */; };
+		048FD7F518F5CE4800316AA9 /* kumasi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79D18F5CE4800316AA9 /* kumasi.jpg */; };
+		048FD7F618F5CE4800316AA9 /* lagos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79E18F5CE4800316AA9 /* lagos.jpg */; };
+		048FD7F718F5CE4800316AA9 /* libreville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD79F18F5CE4800316AA9 /* libreville.jpg */; };
+		048FD7F818F5CE4800316AA9 /* lilongwe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A018F5CE4800316AA9 /* lilongwe.jpg */; };
+		048FD7F918F5CE4800316AA9 /* lobito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A118F5CE4800316AA9 /* lobito.jpg */; };
+		048FD7FA18F5CE4800316AA9 /* luanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A218F5CE4800316AA9 /* luanda.jpg */; };
+		048FD7FB18F5CE4800316AA9 /* lubango.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A318F5CE4800316AA9 /* lubango.jpg */; };
+		048FD7FC18F5CE4800316AA9 /* lubumbashi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A418F5CE4800316AA9 /* lubumbashi.jpg */; };
+		048FD7FD18F5CE4800316AA9 /* maputo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A518F5CE4800316AA9 /* maputo.jpg */; };
+		048FD7FE18F5CE4800316AA9 /* maroua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A618F5CE4800316AA9 /* maroua.jpg */; };
+		048FD7FF18F5CE4800316AA9 /* maseru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A718F5CE4800316AA9 /* maseru.jpg */; };
+		048FD80018F5CE4800316AA9 /* matola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A818F5CE4800316AA9 /* matola.jpg */; };
+		048FD80118F5CE4800316AA9 /* mogadishu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7A918F5CE4800316AA9 /* mogadishu.jpg */; };
+		048FD80218F5CE4800316AA9 /* mokolo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AA18F5CE4800316AA9 /* mokolo.jpg */; };
+		048FD80318F5CE4800316AA9 /* monrovia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AB18F5CE4800316AA9 /* monrovia.jpg */; };
+		048FD80418F5CE4800316AA9 /* moroni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AC18F5CE4800316AA9 /* moroni.jpg */; };
+		048FD80518F5CE4800316AA9 /* moundou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AD18F5CE4800316AA9 /* moundou.jpg */; };
+		048FD80618F5CE4800316AA9 /* muyinga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AE18F5CE4800316AA9 /* muyinga.jpg */; };
+		048FD80718F5CE4800316AA9 /* ndalatando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7AF18F5CE4800316AA9 /* ndalatando.jpg */; };
+		048FD80818F5CE4800316AA9 /* ndjamena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B018F5CE4800316AA9 /* ndjamena.jpg */; };
+		048FD80918F5CE4800316AA9 /* ngaoundere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B118F5CE4800316AA9 /* ngaoundere.jpg */; };
+		048FD80A18F5CE4800316AA9 /* niamey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B218F5CE4800316AA9 /* niamey.jpg */; };
+		048FD80B18F5CE4800316AA9 /* nouakchott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B318F5CE4800316AA9 /* nouakchott.jpg */; };
+		048FD80C18F5CE4800316AA9 /* omdurman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B418F5CE4800316AA9 /* omdurman.jpg */; };
+		048FD80D18F5CE4800316AA9 /* oran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B518F5CE4800316AA9 /* oran.jpg */; };
+		048FD80E18F5CE4800316AA9 /* ouagadougou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B618F5CE4800316AA9 /* ouagadougou.jpg */; };
+		048FD80F18F5CE4800316AA9 /* parakou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B718F5CE4800316AA9 /* parakou.jpg */; };
+		048FD81018F5CE4800316AA9 /* pointe_noire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B818F5CE4800316AA9 /* pointe_noire.jpg */; };
+		048FD81118F5CE4800316AA9 /* portonovo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7B918F5CE4800316AA9 /* portonovo.jpg */; };
+		048FD81218F5CE4800316AA9 /* rabat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BA18F5CE4800316AA9 /* rabat.jpg */; };
+		048FD81318F5CE4800316AA9 /* sarh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BB18F5CE4800316AA9 /* sarh.jpg */; };
+		048FD81418F5CE4800316AA9 /* setif.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BC18F5CE4800316AA9 /* setif.jpg */; };
+		048FD81518F5CE4800316AA9 /* tebessa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BD18F5CE4800316AA9 /* tebessa.jpg */; };
+		048FD81618F5CE4800316AA9 /* tomasina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BE18F5CE4800316AA9 /* tomasina.jpg */; };
+		048FD81718F5CE4800316AA9 /* tripoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7BF18F5CE4800316AA9 /* tripoli.jpg */; };
+		048FD81818F5CE4800316AA9 /* yaounde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD7C018F5CE4800316AA9 /* yaounde.jpg */; };
+		048FD86A18F5CE4F00316AA9 /* abu_dhabi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81A18F5CE4F00316AA9 /* abu_dhabi.jpg */; };
+		048FD86B18F5CE4F00316AA9 /* al_ahmadi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81B18F5CE4F00316AA9 /* al_ahmadi.jpg */; };
+		048FD86C18F5CE4F00316AA9 /* al_hudaydah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81C18F5CE4F00316AA9 /* al_hudaydah.jpg */; };
+		048FD86D18F5CE4F00316AA9 /* al_mawsil_al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81D18F5CE4F00316AA9 /* al_mawsil_al.jpg */; };
+		048FD86E18F5CE4F00316AA9 /* aleppo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81E18F5CE4F00316AA9 /* aleppo.jpg */; };
+		048FD86F18F5CE4F00316AA9 /* almaty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD81F18F5CE4F00316AA9 /* almaty.jpg */; };
+		048FD87018F5CE4F00316AA9 /* amman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82018F5CE4F00316AA9 /* amman.jpg */; };
+		048FD87118F5CE4F00316AA9 /* ankara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82118F5CE4F00316AA9 /* ankara.jpg */; };
+		048FD87218F5CE4F00316AA9 /* ashqabat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82218F5CE4F00316AA9 /* ashqabat.jpg */; };
+		048FD87318F5CE4F00316AA9 /* baghdad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82318F5CE4F00316AA9 /* baghdad.jpg */; };
+		048FD87418F5CE4F00316AA9 /* bangkok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82418F5CE4F00316AA9 /* bangkok.jpg */; };
+		048FD87518F5CE4F00316AA9 /* banglore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82518F5CE4F00316AA9 /* banglore.jpg */; };
+		048FD87618F5CE4F00316AA9 /* basra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82618F5CE4F00316AA9 /* basra.jpg */; };
+		048FD87718F5CE4F00316AA9 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82718F5CE4F00316AA9 /* beijing.jpg */; };
+		048FD87818F5CE4F00316AA9 /* beirut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82818F5CE4F00316AA9 /* beirut.jpg */; };
+		048FD87918F5CE4F00316AA9 /* bishkek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82918F5CE4F00316AA9 /* bishkek.jpg */; };
+		048FD87A18F5CE4F00316AA9 /* burma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82A18F5CE4F00316AA9 /* burma.jpg */; };
+		048FD87B18F5CE4F00316AA9 /* busan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82B18F5CE4F00316AA9 /* busan.jpg */; };
+		048FD87C18F5CE4F00316AA9 /* chittagong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82C18F5CE4F00316AA9 /* chittagong.jpg */; };
+		048FD87D18F5CE4F00316AA9 /* colombo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82D18F5CE4F00316AA9 /* colombo.jpg */; };
+		048FD87E18F5CE4F00316AA9 /* damascus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82E18F5CE4F00316AA9 /* damascus.jpg */; };
+		048FD87F18F5CE4F00316AA9 /* delhi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD82F18F5CE4F00316AA9 /* delhi.jpg */; };
+		048FD88018F5CE4F00316AA9 /* dhaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83018F5CE4F00316AA9 /* dhaka.jpg */; };
+		048FD88118F5CE4F00316AA9 /* doha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83118F5CE4F00316AA9 /* doha.jpg */; };
+		048FD88218F5CE4F00316AA9 /* dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83218F5CE4F00316AA9 /* dubai.jpg */; };
+		048FD88318F5CE4F00316AA9 /* dushanbe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83318F5CE4F00316AA9 /* dushanbe.jpg */; };
+		048FD88418F5CE4F00316AA9 /* faisalabad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83418F5CE4F00316AA9 /* faisalabad.jpg */; };
+		048FD88518F5CE4F00316AA9 /* galkissa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83518F5CE4F00316AA9 /* galkissa.jpg */; };
+		048FD88618F5CE4F00316AA9 /* havana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83618F5CE4F00316AA9 /* havana.jpg */; };
+		048FD88718F5CE4F00316AA9 /* hulu_langat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83718F5CE4F00316AA9 /* hulu_langat.jpg */; };
+		048FD88818F5CE4F00316AA9 /* isfahan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83818F5CE4F00316AA9 /* isfahan.jpg */; };
+		048FD88918F5CE4F00316AA9 /* istanbul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83918F5CE4F00316AA9 /* istanbul.jpg */; };
+		048FD88A18F5CE4F00316AA9 /* izmir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83A18F5CE4F00316AA9 /* izmir.jpg */; };
+		048FD88B18F5CE4F00316AA9 /* jakarta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83B18F5CE4F00316AA9 /* jakarta.jpg */; };
+		048FD88C18F5CE4F00316AA9 /* jeddah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83C18F5CE4F00316AA9 /* jeddah.jpg */; };
+		048FD88D18F5CE4F00316AA9 /* jerusalem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83D18F5CE4F00316AA9 /* jerusalem.jpg */; };
+		048FD88E18F5CE4F00316AA9 /* kabul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83E18F5CE4F00316AA9 /* kabul.jpg */; };
+		048FD88F18F5CE4F00316AA9 /* kandahar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD83F18F5CE4F00316AA9 /* kandahar.jpg */; };
+		048FD89018F5CE4F00316AA9 /* karachi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84018F5CE4F00316AA9 /* karachi.jpg */; };
+		048FD89118F5CE4F00316AA9 /* kathmandu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84118F5CE4F00316AA9 /* kathmandu.jpg */; };
+		048FD89218F5CE4F00316AA9 /* khulna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84218F5CE4F00316AA9 /* khulna.jpg */; };
+		048FD89318F5CE4F00316AA9 /* kolkata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84318F5CE4F00316AA9 /* kolkata.jpg */; };
+		048FD89418F5CE4F00316AA9 /* kuala_lumpur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84418F5CE4F00316AA9 /* kuala_lumpur.jpg */; };
+		048FD89518F5CE4F00316AA9 /* lahore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84518F5CE4F00316AA9 /* lahore.jpg */; };
+		048FD89618F5CE4F00316AA9 /* manama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84618F5CE4F00316AA9 /* manama.jpg */; };
+		048FD89718F5CE4F00316AA9 /* mandalay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84718F5CE4F00316AA9 /* mandalay.jpg */; };
+		048FD89818F5CE4F00316AA9 /* mashhad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84818F5CE4F00316AA9 /* mashhad.jpg */; };
+		048FD89918F5CE4F00316AA9 /* mecca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84918F5CE4F00316AA9 /* mecca.jpg */; };
+		048FD89A18F5CE4F00316AA9 /* medan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84A18F5CE4F00316AA9 /* medan.jpg */; };
+		048FD89B18F5CE4F00316AA9 /* medina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84B18F5CE4F00316AA9 /* medina.jpg */; };
+		048FD89C18F5CE4F00316AA9 /* moscow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84C18F5CE4F00316AA9 /* moscow.jpg */; };
+		048FD89D18F5CE4F00316AA9 /* mueang_samut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84D18F5CE4F00316AA9 /* mueang_samut.jpg */; };
+		048FD89E18F5CE4F00316AA9 /* mumbai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84E18F5CE4F00316AA9 /* mumbai.jpg */; };
+		048FD89F18F5CE4F00316AA9 /* muscat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD84F18F5CE4F00316AA9 /* muscat.jpg */; };
+		048FD8A018F5CE4F00316AA9 /* namangan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85018F5CE4F00316AA9 /* namangan.jpg */; };
+		048FD8A118F5CE4F00316AA9 /* nanchong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85118F5CE4F00316AA9 /* nanchong.jpg */; };
+		048FD8A218F5CE4F00316AA9 /* nizhny_novgorod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85218F5CE4F00316AA9 /* nizhny_novgorod.jpg */; };
+		048FD8A318F5CE4F00316AA9 /* novosibirsk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85318F5CE4F00316AA9 /* novosibirsk.jpg */; };
+		048FD8A418F5CE4F00316AA9 /* osaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85418F5CE4F00316AA9 /* osaka.jpg */; };
+		048FD8A518F5CE4F00316AA9 /* petaling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85518F5CE4F00316AA9 /* petaling.jpg */; };
+		048FD8A618F5CE4F00316AA9 /* pyongyang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85618F5CE4F00316AA9 /* pyongyang.jpg */; };
+		048FD8A718F5CE4F00316AA9 /* ras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85718F5CE4F00316AA9 /* ras.jpg */; };
+		048FD8A818F5CE4F00316AA9 /* riyadh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85818F5CE4F00316AA9 /* riyadh.jpg */; };
+		048FD8A918F5CE4F00316AA9 /* saint_petersburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85918F5CE4F00316AA9 /* saint_petersburg.jpg */; };
+		048FD8AA18F5CE4F00316AA9 /* sanaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85A18F5CE4F00316AA9 /* sanaa.jpg */; };
+		048FD8AB18F5CE4F00316AA9 /* santiago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85B18F5CE4F00316AA9 /* santiago.jpg */; };
+		048FD8AC18F5CE4F00316AA9 /* seoul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85C18F5CE4F00316AA9 /* seoul.jpg */; };
+		048FD8AD18F5CE4F00316AA9 /* shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85D18F5CE4F00316AA9 /* shanghai.jpg */; };
+		048FD8AE18F5CE4F00316AA9 /* sharjah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85E18F5CE4F00316AA9 /* sharjah.jpg */; };
+		048FD8AF18F5CE4F00316AA9 /* singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD85F18F5CE4F00316AA9 /* singapore.jpg */; };
+		048FD8B018F5CE4F00316AA9 /* surabaya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86018F5CE4F00316AA9 /* surabaya.jpg */; };
+		048FD8B118F5CE4F00316AA9 /* tashkent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86118F5CE4F00316AA9 /* tashkent.jpg */; };
+		048FD8B218F5CE4F00316AA9 /* tehran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86218F5CE4F00316AA9 /* tehran.jpg */; };
+		048FD8B318F5CE4F00316AA9 /* tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86318F5CE4F00316AA9 /* tokyo.jpg */; };
+		048FD8B418F5CE4F00316AA9 /* ulanbaatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86418F5CE4F00316AA9 /* ulanbaatar.jpg */; };
+		048FD8B518F5CE4F00316AA9 /* vientiane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86518F5CE4F00316AA9 /* vientiane.jpg */; };
+		048FD8B618F5CE4F00316AA9 /* yangon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86618F5CE4F00316AA9 /* yangon.jpg */; };
+		048FD8B718F5CE4F00316AA9 /* yekaterinburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86718F5CE4F00316AA9 /* yekaterinburg.jpg */; };
+		048FD8B818F5CE4F00316AA9 /* yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86818F5CE4F00316AA9 /* yokohama.jpg */; };
+		048FD8B918F5CE4F00316AA9 /* zhumadian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD86918F5CE4F00316AA9 /* zhumadian.jpg */; };
+		048FD8C718F5CE6300316AA9 /* adelaide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8BB18F5CE6300316AA9 /* adelaide.jpg */; };
+		048FD8C818F5CE6300316AA9 /* auckland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8BC18F5CE6300316AA9 /* auckland.jpg */; };
+		048FD8C918F5CE6300316AA9 /* brisbane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8BD18F5CE6300316AA9 /* brisbane.jpg */; };
+		048FD8CA18F5CE6300316AA9 /* christchurch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8BE18F5CE6300316AA9 /* christchurch.jpg */; };
+		048FD8CB18F5CE6300316AA9 /* manukau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8BF18F5CE6300316AA9 /* manukau.jpg */; };
+		048FD8CC18F5CE6300316AA9 /* melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C018F5CE6300316AA9 /* melbourne.jpg */; };
+		048FD8CD18F5CE6300316AA9 /* north_shore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C118F5CE6300316AA9 /* north_shore.jpg */; };
+		048FD8CE18F5CE6300316AA9 /* perth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C218F5CE6300316AA9 /* perth.jpg */; };
+		048FD8CF18F5CE6300316AA9 /* port_moresby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C318F5CE6300316AA9 /* port_moresby.jpg */; };
+		048FD8D018F5CE6300316AA9 /* sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C418F5CE6300316AA9 /* sydney.jpg */; };
+		048FD8D118F5CE6300316AA9 /* waitakere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C518F5CE6300316AA9 /* waitakere.jpg */; };
+		048FD8D218F5CE6300316AA9 /* wellington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8C618F5CE6300316AA9 /* wellington.jpg */; };
+		048FD90318F5CE7900316AA9 /* atlanta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D418F5CE7900316AA9 /* atlanta.jpg */; };
+		048FD90418F5CE7900316AA9 /* boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D518F5CE7900316AA9 /* boston.jpg */; };
+		048FD90518F5CE7900316AA9 /* calgary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D618F5CE7900316AA9 /* calgary.jpg */; };
+		048FD90618F5CE7900316AA9 /* camaguey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D718F5CE7900316AA9 /* camaguey.jpg */; };
+		048FD90718F5CE7900316AA9 /* carrefour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D818F5CE7900316AA9 /* carrefour.jpg */; };
+		048FD90818F5CE7900316AA9 /* choloma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8D918F5CE7900316AA9 /* choloma.jpg */; };
+		048FD90918F5CE7900316AA9 /* dallas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DA18F5CE7900316AA9 /* dallas.jpg */; };
+		048FD90A18F5CE7900316AA9 /* delmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DB18F5CE7900316AA9 /* delmas.jpg */; };
+		048FD90B18F5CE7900316AA9 /* detroit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DC18F5CE7900316AA9 /* detroit.jpg */; };
+		048FD90C18F5CE7900316AA9 /* ecatepec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DD18F5CE7900316AA9 /* ecatepec.jpg */; };
+		048FD90D18F5CE7900316AA9 /* guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DE18F5CE7900316AA9 /* guadalajara.jpg */; };
+		048FD90E18F5CE7900316AA9 /* guatemala_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8DF18F5CE7900316AA9 /* guatemala_city.jpg */; };
+		048FD90F18F5CE7900316AA9 /* havana_n_a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E018F5CE7900316AA9 /* havana_n_a.jpg */; };
+		048FD91018F5CE7900316AA9 /* holguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E118F5CE7900316AA9 /* holguin.jpg */; };
+		048FD91118F5CE7900316AA9 /* iztapalapa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E218F5CE7900316AA9 /* iztapalapa.jpg */; };
+		048FD91218F5CE7900316AA9 /* kingston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E318F5CE7900316AA9 /* kingston.jpg */; };
+		048FD91318F5CE7900316AA9 /* laventille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E418F5CE7900316AA9 /* laventille.jpg */; };
+		048FD91418F5CE7900316AA9 /* leon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E518F5CE7900316AA9 /* leon.jpg */; };
+		048FD91518F5CE7900316AA9 /* los_angeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E618F5CE7900316AA9 /* los_angeles.jpg */; };
+		048FD91618F5CE7900316AA9 /* managua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E718F5CE7900316AA9 /* managua.jpg */; };
+		048FD91718F5CE7900316AA9 /* mexico_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E818F5CE7900316AA9 /* mexico_city.jpg */; };
+		048FD91818F5CE7900316AA9 /* miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8E918F5CE7900316AA9 /* miami.jpg */; };
+		048FD91918F5CE7900316AA9 /* mixco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8EA18F5CE7900316AA9 /* mixco.jpg */; };
+		048FD91A18F5CE7900316AA9 /* montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8EB18F5CE7900316AA9 /* montreal.jpg */; };
+		048FD91B18F5CE7900316AA9 /* nassau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8EC18F5CE7900316AA9 /* nassau.jpg */; };
+		048FD91C18F5CE7900316AA9 /* new_kingston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8ED18F5CE7900316AA9 /* new_kingston.jpg */; };
+		048FD91D18F5CE7900316AA9 /* new_york.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8EE18F5CE7900316AA9 /* new_york.jpg */; };
+		048FD91E18F5CE7900316AA9 /* panama_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8EF18F5CE7900316AA9 /* panama_city.jpg */; };
+		048FD91F18F5CE7900316AA9 /* philadelphia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F018F5CE7900316AA9 /* philadelphia.jpg */; };
+		048FD92018F5CE7900316AA9 /* port_au_prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F118F5CE7900316AA9 /* port_au_prince.jpg */; };
+		048FD92118F5CE7900316AA9 /* san_jose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F218F5CE7900316AA9 /* san_jose.jpg */; };
+		048FD92218F5CE7900316AA9 /* san_muglieto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F318F5CE7900316AA9 /* san_muglieto.jpg */; };
+		048FD92318F5CE7900316AA9 /* san_pedro_de_macoris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F418F5CE7900316AA9 /* san_pedro_de_macoris.jpg */; };
+		048FD92418F5CE7900316AA9 /* san_pedro_sula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F518F5CE7900316AA9 /* san_pedro_sula.jpg */; };
+		048FD92518F5CE7900316AA9 /* san_salvador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F618F5CE7900316AA9 /* san_salvador.jpg */; };
+		048FD92618F5CE7900316AA9 /* santa_ana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F718F5CE7900316AA9 /* santa_ana.jpg */; };
+		048FD92718F5CE7900316AA9 /* santiago_de_cuba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F818F5CE7900316AA9 /* santiago_de_cuba.jpg */; };
+		048FD92818F5CE7900316AA9 /* santiago_de_los.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8F918F5CE7900316AA9 /* santiago_de_los.jpg */; };
+		048FD92918F5CE7900316AA9 /* santo_domingo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FA18F5CE7900316AA9 /* santo_domingo.jpg */; };
+		048FD92A18F5CE7900316AA9 /* santo_domingo_oesto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FB18F5CE7900316AA9 /* santo_domingo_oesto.jpg */; };
+		048FD92B18F5CE7900316AA9 /* soyapango.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FC18F5CE7900316AA9 /* soyapango.jpg */; };
+		048FD92C18F5CE7900316AA9 /* spanish_town.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FD18F5CE7900316AA9 /* spanish_town.jpg */; };
+		048FD92D18F5CE7900316AA9 /* tegucigalpa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FE18F5CE7900316AA9 /* tegucigalpa.jpg */; };
+		048FD92E18F5CE7900316AA9 /* toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD8FF18F5CE7900316AA9 /* toronto.jpg */; };
+		048FD92F18F5CE7900316AA9 /* vancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD90018F5CE7900316AA9 /* vancouver.jpg */; };
+		048FD93018F5CE7900316AA9 /* villa_nueva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD90118F5CE7900316AA9 /* villa_nueva.jpg */; };
+		048FD93118F5CE7900316AA9 /* washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD90218F5CE7900316AA9 /* washington.jpg */; };
+		048FD99018F5CE8200316AA9 /* aarhus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93318F5CE8200316AA9 /* aarhus.jpg */; };
+		048FD99118F5CE8200316AA9 /* amadora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93418F5CE8200316AA9 /* amadora.jpg */; };
+		048FD99218F5CE8200316AA9 /* amsterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93518F5CE8200316AA9 /* amsterdam.jpg */; };
+		048FD99318F5CE8200316AA9 /* antwerp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93618F5CE8200316AA9 /* antwerp.jpg */; };
+		048FD99418F5CE8200316AA9 /* athens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93718F5CE8200316AA9 /* athens.jpg */; };
+		048FD99518F5CE8200316AA9 /* baku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93818F5CE8200316AA9 /* baku.jpg */; };
+		048FD99618F5CE8200316AA9 /* banja_luka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93918F5CE8200316AA9 /* banja_luka.jpg */; };
+		048FD99718F5CE8200316AA9 /* barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93A18F5CE8200316AA9 /* barcelona.jpg */; };
+		048FD99818F5CE8200316AA9 /* basel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93B18F5CE8200316AA9 /* basel.jpg */; };
+		048FD99918F5CE8200316AA9 /* belgrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93C18F5CE8200316AA9 /* belgrade.jpg */; };
+		048FD99A18F5CE8200316AA9 /* bergen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93D18F5CE8200316AA9 /* bergen.jpg */; };
+		048FD99B18F5CE8200316AA9 /* berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93E18F5CE8200316AA9 /* berlin.jpg */; };
+		048FD99C18F5CE8200316AA9 /* berne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD93F18F5CE8200316AA9 /* berne.jpg */; };
+		048FD99D18F5CE8200316AA9 /* birmingham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94018F5CE8200316AA9 /* birmingham.jpg */; };
+		048FD99E18F5CE8200316AA9 /* bratislava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94118F5CE8200316AA9 /* bratislava.jpg */; };
+		048FD99F18F5CE8200316AA9 /* brussels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94218F5CE8200316AA9 /* brussels.jpg */; };
+		048FD9A018F5CE8200316AA9 /* bucharest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94318F5CE8200316AA9 /* bucharest.jpg */; };
+		048FD9A118F5CE8200316AA9 /* budapest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94418F5CE8200316AA9 /* budapest.jpg */; };
+		048FD9A218F5CE8200316AA9 /* cluj_napoca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94518F5CE8200316AA9 /* cluj_napoca.jpg */; };
+		048FD9A318F5CE8200316AA9 /* cologne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94618F5CE8200316AA9 /* cologne.jpg */; };
+		048FD9A418F5CE8200316AA9 /* copenhagon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94718F5CE8200316AA9 /* copenhagon.jpg */; };
+		048FD9A518F5CE8200316AA9 /* cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94818F5CE8200316AA9 /* cork.jpg */; };
+		048FD9A618F5CE8200316AA9 /* debrecen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94918F5CE8200316AA9 /* debrecen.jpg */; };
+		048FD9A718F5CE8200316AA9 /* dnipropetrovsk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94A18F5CE8200316AA9 /* dnipropetrovsk.jpg */; };
+		048FD9A818F5CE8200316AA9 /* donetsk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94B18F5CE8200316AA9 /* donetsk.jpg */; };
+		048FD9A918F5CE8200316AA9 /* dublin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94C18F5CE8200316AA9 /* dublin.jpg */; };
+		048FD9AA18F5CE8200316AA9 /* espoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94D18F5CE8200316AA9 /* espoo.jpg */; };
+		048FD9AB18F5CE8200316AA9 /* ganja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94E18F5CE8200316AA9 /* ganja.jpg */; };
+		048FD9AC18F5CE8200316AA9 /* geneva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD94F18F5CE8200316AA9 /* geneva.jpg */; };
+		048FD9AD18F5CE8200316AA9 /* glasglow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95018F5CE8200316AA9 /* glasglow.jpg */; };
+		048FD9AE18F5CE8200316AA9 /* gomel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95118F5CE8200316AA9 /* gomel.jpg */; };
+		048FD9AF18F5CE8200316AA9 /* gothenburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95218F5CE8200316AA9 /* gothenburg.jpg */; };
+		048FD9B018F5CE8200316AA9 /* graza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95318F5CE8200316AA9 /* graza.jpg */; };
+		048FD9B118F5CE8200316AA9 /* hamburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95418F5CE8200316AA9 /* hamburg.jpg */; };
+		048FD9B218F5CE8200316AA9 /* helsinki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95518F5CE8200316AA9 /* helsinki.jpg */; };
+		048FD9B318F5CE8200316AA9 /* iasi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95618F5CE8200316AA9 /* iasi.jpg */; };
+		048FD9B418F5CE8200316AA9 /* kaunas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95718F5CE8200316AA9 /* kaunas.jpg */; };
+		048FD9B518F5CE8200316AA9 /* kharkiv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95818F5CE8200316AA9 /* kharkiv.jpg */; };
+		048FD9B618F5CE8200316AA9 /* kosice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95918F5CE8200316AA9 /* kosice.jpg */; };
+		048FD9B718F5CE8200316AA9 /* krakow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95A18F5CE8200316AA9 /* krakow.jpg */; };
+		048FD9B818F5CE8200316AA9 /* kutaisi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95B18F5CE8200316AA9 /* kutaisi.jpg */; };
+		048FD9B918F5CE8200316AA9 /* kyiv_ukraine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95C18F5CE8200316AA9 /* kyiv_ukraine.jpg */; };
+		048FD9BA18F5CE8200316AA9 /* leeds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95D18F5CE8200316AA9 /* leeds.jpg */; };
+		048FD9BB18F5CE8200316AA9 /* limassol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95E18F5CE8200316AA9 /* limassol.jpg */; };
+		048FD9BC18F5CE8200316AA9 /* lisbon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD95F18F5CE8200316AA9 /* lisbon.jpg */; };
+		048FD9BD18F5CE8200316AA9 /* liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96018F5CE8200316AA9 /* liverpool.jpg */; };
+		048FD9BE18F5CE8200316AA9 /* ljubljana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96118F5CE8200316AA9 /* ljubljana.jpg */; };
+		048FD9BF18F5CE8200316AA9 /* lodz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96218F5CE8200316AA9 /* lodz.jpg */; };
+		048FD9C018F5CE8200316AA9 /* london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96318F5CE8200316AA9 /* london.jpg */; };
+		048FD9C118F5CE8200316AA9 /* lyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96418F5CE8200316AA9 /* lyon.jpg */; };
+		048FD9C218F5CE8200316AA9 /* madrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96518F5CE8200316AA9 /* madrid.jpg */; };
+		048FD9C318F5CE8200316AA9 /* malmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96618F5CE8200316AA9 /* malmo.jpg */; };
+		048FD9C418F5CE8200316AA9 /* manchester.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96718F5CE8200316AA9 /* manchester.jpg */; };
+		048FD9C518F5CE8200316AA9 /* marseille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96818F5CE8200316AA9 /* marseille.jpg */; };
+		048FD9C618F5CE8200316AA9 /* milan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96918F5CE8200316AA9 /* milan.jpg */; };
+		048FD9C718F5CE8200316AA9 /* minsk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96A18F5CE8200316AA9 /* minsk.jpg */; };
+		048FD9C818F5CE8200316AA9 /* munich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96B18F5CE8200316AA9 /* munich.jpg */; };
+		048FD9C918F5CE8200316AA9 /* naples.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96C18F5CE8200316AA9 /* naples.jpg */; };
+		048FD9CA18F5CE8200316AA9 /* nautical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96D18F5CE8200316AA9 /* nautical.jpg */; };
+		048FD9CB18F5CE8200316AA9 /* nicosia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96E18F5CE8200316AA9 /* nicosia.jpg */; };
+		048FD9CC18F5CE8200316AA9 /* nis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD96F18F5CE8200316AA9 /* nis.jpg */; };
+		048FD9CD18F5CE8200316AA9 /* novi_sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97018F5CE8200316AA9 /* novi_sad.jpg */; };
+		048FD9CE18F5CE8200316AA9 /* odense.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97118F5CE8200316AA9 /* odense.jpg */; };
+		048FD9CF18F5CE8200316AA9 /* oslo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97218F5CE8200316AA9 /* oslo.jpg */; };
+		048FD9D018F5CE8200316AA9 /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97318F5CE8200316AA9 /* paris.jpg */; };
+		048FD9D118F5CE8200316AA9 /* plovdiv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97418F5CE8200316AA9 /* plovdiv.jpg */; };
+		048FD9D218F5CE8200316AA9 /* podgorica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97518F5CE8200316AA9 /* podgorica.jpg */; };
+		048FD9D318F5CE8200316AA9 /* posto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97618F5CE8200316AA9 /* posto.jpg */; };
+		048FD9D418F5CE8200316AA9 /* reykjavik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97718F5CE8200316AA9 /* reykjavik.jpg */; };
+		048FD9D518F5CE8200316AA9 /* rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97818F5CE8200316AA9 /* rome.jpg */; };
+		048FD9D618F5CE8200316AA9 /* rotterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97918F5CE8200316AA9 /* rotterdam.jpg */; };
+		048FD9D718F5CE8200316AA9 /* sarajevo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97A18F5CE8200316AA9 /* sarajevo.jpg */; };
+		048FD9D818F5CE8200316AA9 /* seville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97B18F5CE8200316AA9 /* seville.jpg */; };
+		048FD9D918F5CE8200316AA9 /* skopje.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97C18F5CE8200316AA9 /* skopje.jpg */; };
+		048FD9DA18F5CE8200316AA9 /* sofia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97D18F5CE8200316AA9 /* sofia.jpg */; };
+		048FD9DB18F5CE8200316AA9 /* split.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97E18F5CE8200316AA9 /* split.jpg */; };
+		048FD9DC18F5CE8200316AA9 /* stockholm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD97F18F5CE8200316AA9 /* stockholm.jpg */; };
+		048FD9DD18F5CE8200316AA9 /* tallinn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98018F5CE8200316AA9 /* tallinn.jpg */; };
+		048FD9DE18F5CE8200316AA9 /* tampere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98118F5CE8200316AA9 /* tampere.jpg */; };
+		048FD9DF18F5CE8200316AA9 /* tbilisi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98218F5CE8200316AA9 /* tbilisi.jpg */; };
+		048FD9E018F5CE8200316AA9 /* the_hague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98318F5CE8200316AA9 /* the_hague.jpg */; };
+		048FD9E118F5CE8200316AA9 /* thessaloniki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98418F5CE8200316AA9 /* thessaloniki.jpg */; };
+		048FD9E218F5CE8200316AA9 /* tirana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98518F5CE8200316AA9 /* tirana.jpg */; };
+		048FD9E318F5CE8200316AA9 /* toulouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98618F5CE8200316AA9 /* toulouse.jpg */; };
+		048FD9E418F5CE8200316AA9 /* turin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98718F5CE8200316AA9 /* turin.jpg */; };
+		048FD9E518F5CE8200316AA9 /* utrecht.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98818F5CE8200316AA9 /* utrecht.jpg */; };
+		048FD9E618F5CE8200316AA9 /* valencia_europe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98918F5CE8200316AA9 /* valencia_europe.jpg */; };
+		048FD9E718F5CE8200316AA9 /* vienna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98A18F5CE8200316AA9 /* vienna.jpg */; };
+		048FD9E818F5CE8200316AA9 /* vilnius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98B18F5CE8200316AA9 /* vilnius.jpg */; };
+		048FD9E918F5CE8200316AA9 /* warsaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98C18F5CE8200316AA9 /* warsaw.jpg */; };
+		048FD9EA18F5CE8200316AA9 /* yerevan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98D18F5CE8200316AA9 /* yerevan.jpg */; };
+		048FD9EB18F5CE8200316AA9 /* zagreb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98E18F5CE8200316AA9 /* zagreb.jpg */; };
+		048FD9EC18F5CE8200316AA9 /* zurich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD98F18F5CE8200316AA9 /* zurich.jpg */; };
+		048FDA1018F5CE9400316AA9 /* antofagasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9EE18F5CE9400316AA9 /* antofagasta.jpg */; };
+		048FDA1118F5CE9400316AA9 /* arequipa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9EF18F5CE9400316AA9 /* arequipa.jpg */; };
+		048FDA1218F5CE9400316AA9 /* asuncion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F018F5CE9400316AA9 /* asuncion.jpg */; };
+		048FDA1318F5CE9400316AA9 /* barranquilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F118F5CE9400316AA9 /* barranquilla.jpg */; };
+		048FDA1418F5CE9400316AA9 /* belo_horizonte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F218F5CE9400316AA9 /* belo_horizonte.jpg */; };
+		048FDA1518F5CE9400316AA9 /* bogota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F318F5CE9400316AA9 /* bogota.jpg */; };
+		048FDA1618F5CE9400316AA9 /* brasilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F418F5CE9400316AA9 /* brasilia.jpg */; };
+		048FDA1718F5CE9400316AA9 /* buenos_aries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F518F5CE9400316AA9 /* buenos_aries.jpg */; };
+		048FDA1818F5CE9400316AA9 /* caracas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F618F5CE9400316AA9 /* caracas.jpg */; };
+		048FDA1918F5CE9400316AA9 /* ciudad_del_este.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F718F5CE9400316AA9 /* ciudad_del_este.jpg */; };
+		048FDA1A18F5CE9400316AA9 /* cochabamba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F818F5CE9400316AA9 /* cochabamba.jpg */; };
+		048FDA1B18F5CE9400316AA9 /* cordoba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9F918F5CE9400316AA9 /* cordoba.jpg */; };
+		048FDA1C18F5CE9400316AA9 /* fortaleza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FA18F5CE9400316AA9 /* fortaleza.jpg */; };
+		048FDA1D18F5CE9400316AA9 /* georgetown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FB18F5CE9400316AA9 /* georgetown.jpg */; };
+		048FDA1E18F5CE9400316AA9 /* guayaquil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FC18F5CE9400316AA9 /* guayaquil.jpg */; };
+		048FDA1F18F5CE9400316AA9 /* la_paz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FD18F5CE9400316AA9 /* la_paz.jpg */; };
+		048FDA2018F5CE9400316AA9 /* lima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FE18F5CE9400316AA9 /* lima.jpg */; };
+		048FDA2118F5CE9400316AA9 /* maracaibo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FD9FF18F5CE9400316AA9 /* maracaibo.jpg */; };
+		048FDA2218F5CE9400316AA9 /* maracay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0018F5CE9400316AA9 /* maracay.jpg */; };
+		048FDA2318F5CE9400316AA9 /* medellin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0118F5CE9400316AA9 /* medellin.jpg */; };
+		048FDA2418F5CE9400316AA9 /* mendoza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0218F5CE9400316AA9 /* mendoza.jpg */; };
+		048FDA2518F5CE9400316AA9 /* montevideo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0318F5CE9400316AA9 /* montevideo.jpg */; };
+		048FDA2618F5CE9400316AA9 /* paramaribo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0418F5CE9400316AA9 /* paramaribo.jpg */; };
+		048FDA2718F5CE9400316AA9 /* puente_alto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0518F5CE9400316AA9 /* puente_alto.jpg */; };
+		048FDA2818F5CE9400316AA9 /* quito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0618F5CE9400316AA9 /* quito.jpg */; };
+		048FDA2918F5CE9400316AA9 /* rio_di.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0718F5CE9400316AA9 /* rio_di.jpg */; };
+		048FDA2A18F5CE9400316AA9 /* rosario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0818F5CE9400316AA9 /* rosario.jpg */; };
+		048FDA2B18F5CE9400316AA9 /* salvador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0918F5CE9400316AA9 /* salvador.jpg */; };
+		048FDA2C18F5CE9400316AA9 /* santa_cruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0A18F5CE9400316AA9 /* santa_cruz.jpg */; };
+		048FDA2D18F5CE9400316AA9 /* santiago_de_cali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0B18F5CE9400316AA9 /* santiago_de_cali.jpg */; };
+		048FDA2E18F5CE9400316AA9 /* santiago_s_a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0C18F5CE9400316AA9 /* santiago_s_a.jpg */; };
+		048FDA2F18F5CE9400316AA9 /* sao_paulo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0D18F5CE9400316AA9 /* sao_paulo.jpg */; };
+		048FDA3018F5CE9400316AA9 /* sucre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0E18F5CE9400316AA9 /* sucre.jpg */; };
+		048FDA3118F5CE9400316AA9 /* valencia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048FDA0F18F5CE9400316AA9 /* valencia.jpg */; };
+		0490BABF1903AA410004C14E /* placessDetailData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490BABE1903AA410004C14E /* placessDetailData.m */; };
+		04912C8A18FC712C0023B036 /* Google-Maps-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04912C8918FC712C0023B036 /* Google-Maps-icon.png */; };
+		0492E5FF18E9BEC7004A343F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492E5FE18E9BEC7004A343F /* MapKit.framework */; };
+		0492E60218E9BED3004A343F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492E60118E9BED3004A343F /* CoreLocation.framework */; };
+		04969FCB18FFB86C00150B83 /* worship_hindu-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FC518FFB86B00150B83 /* worship_hindu-71.png */; };
+		04969FCC18FFB86C00150B83 /* library-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FC618FFB86B00150B83 /* library-71.png */; };
+		04969FCD18FFB86C00150B83 /* museum-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FC718FFB86B00150B83 /* museum-71.png */; };
+		04969FCE18FFB86C00150B83 /* generic_recreational-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FC818FFB86B00150B83 /* generic_recreational-71.png */; };
+		04969FCF18FFB86C00150B83 /* art_gallery-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FC918FFB86B00150B83 /* art_gallery-71.png */; };
+		04969FD018FFB86C00150B83 /* worship_general-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 04969FCA18FFB86C00150B83 /* worship_general-71.png */; };
+		04A740B018EFD99200B37473 /* mapBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A740AF18EFD99200B37473 /* mapBtn.png */; };
+		04BD507918FD4CFD00D4A035 /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BD507818FD4CFD00D4A035 /* log.png */; };
+		04BD507B18FD4D1100D4A035 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BD507A18FD4D1100D4A035 /* logo.png */; };
+		04C40AE918EB89F50038BE70 /* ExistingDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C40AE818EB89F50038BE70 /* ExistingDatabase.m */; };
+		04C4A8C018EF4700003F8125 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4A8BE18EF4700003F8125 /* MapViewController.m */; };
+		04C4A8C118EF4700003F8125 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C4A8BF18EF4700003F8125 /* MapViewController.xib */; };
+		04E2B23718E3E99600822E0D /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E2B23618E3E99600822E0D /* entitlements.plist */; };
+		04EF6D7418EF548000180AE6 /* map_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF6D7318EF548000180AE6 /* map_marker.png */; };
+		04EFBE9618E258D700483297 /* ag_continent_africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9018E258D600483297 /* ag_continent_africa.png */; };
+		04EFBE9718E258D700483297 /* ag_continent_america.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9118E258D700483297 /* ag_continent_america.png */; };
+		04EFBE9818E258D700483297 /* ag_continent_asia.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9218E258D700483297 /* ag_continent_asia.png */; };
+		04EFBE9918E258D700483297 /* ag_continent_euro.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9318E258D700483297 /* ag_continent_euro.png */; };
+		04EFBE9A18E258D700483297 /* ag_continent_north_america.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9418E258D700483297 /* ag_continent_north_america.png */; };
+		04EFBE9B18E258D700483297 /* ag_continent_oceania.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EFBE9518E258D700483297 /* ag_continent_oceania.png */; };
+		04F3535F18E2AF5E00EA7C12 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F3535E18E2AF5D00EA7C12 /* libsqlite3.dylib */; };
+		04F54EAA18F1D6DA00A244DB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F54EA918F1D6DA00A244DB /* map.png */; };
+		04FD266718EE2DC2008AA924 /* jsonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD266618EE2DC2008AA924 /* jsonClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040AB1EA18F0876A00AC2686 /* webImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webImg.png; sourceTree = "<group>"; };
+		041998451910F98600B2508F /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		041998461910F98600B2508F /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		043087AE18EB49340017469D /* cityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityDetailViewController.h; sourceTree = "<group>"; };
+		043087AF18EB49340017469D /* cityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityDetailViewController.m; sourceTree = "<group>"; };
+		043087B018EB49340017469D /* cityDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cityDetailViewController.xib; sourceTree = "<group>"; };
+		043795E91903B3F100EEA9CD /* tempDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempDataBase.h; sourceTree = "<group>"; };
+		043795EA1903B3F100EEA9CD /* tempDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempDataBase.m; sourceTree = "<group>"; };
+		0439193E190EC36F0028787C /* cafe-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cafe-71.png"; sourceTree = "<group>"; };
+		044468BD18FC1BA400676C7C /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		044468BF18FC1BAB00676C7C /* SNP_3005064_en_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SNP_3005064_en_v1.png; sourceTree = "<group>"; };
+		044468C118FC1BB000676C7C /* 001442-3d-transparent-glass-icon-media-a-media3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001442-3d-transparent-glass-icon-media-a-media3.png"; sourceTree = "<group>"; };
+		04449D3C18F638BB009D4346 /* gaborene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gaborene.jpg; sourceTree = "<group>"; };
+		04449D3F18F63AA2009D4346 /* mbujimayi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mbujimayi.jpg; sourceTree = "<group>"; };
+		0462FA8518DA553D00ED0211 /* DownloadGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadGuideViewController.h; sourceTree = "<group>"; };
+		0462FA8618DA553E00ED0211 /* DownloadGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadGuideViewController.m; sourceTree = "<group>"; };
+		0462FA8718DA553F00ED0211 /* DownloadGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadGuideViewController.xib; sourceTree = "<group>"; };
+		04649084190E7825001226E7 /* downloadedCityGuidesClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadedCityGuidesClass.h; sourceTree = "<group>"; };
+		04649085190E7825001226E7 /* downloadedCityGuidesClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downloadedCityGuidesClass.m; sourceTree = "<group>"; };
+		04649086190E7825001226E7 /* downloadedCityGuidesClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = downloadedCityGuidesClass.xib; sourceTree = "<group>"; };
+		046F304E18EE1EFF007F98CE /* attr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attr.png; sourceTree = "<group>"; };
+		046F304F18EE1EFF007F98CE /* Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restaurant.png; sourceTree = "<group>"; };
+		046F305018EE1EFF007F98CE /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shopping.jpg; sourceTree = "<group>"; };
+		046F305118EE1EFF007F98CE /* hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel.png; sourceTree = "<group>"; };
+		046F305218EE1EFF007F98CE /* night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night.png; sourceTree = "<group>"; };
+		0471B776190ECEDD009E74F0 /* ListDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDetailView.h; sourceTree = "<group>"; };
+		0471B777190ECEDD009E74F0 /* ListDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDetailView.m; sourceTree = "<group>"; };
+		0471B778190ECEDD009E74F0 /* ListDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListDetailView.xib; sourceTree = "<group>"; };
+		047D318A190EA4E40026FA14 /* listofviewOfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listofviewOfclass.h; sourceTree = "<group>"; };
+		047D318B190EA4E40026FA14 /* listofviewOfclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listofviewOfclass.m; sourceTree = "<group>"; };
+		047D318C190EA4E40026FA14 /* listofviewOfclass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = listofviewOfclass.xib; sourceTree = "<group>"; };
+		0484F218190E882F00DE9F10 /* NextViewOfDownloadClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewOfDownloadClass.h; sourceTree = "<group>"; };
+		0484F219190E882F00DE9F10 /* NextViewOfDownloadClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewOfDownloadClass.m; sourceTree = "<group>"; };
+		0484F21A190E882F00DE9F10 /* NextViewOfDownloadClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewOfDownloadClass.xib; sourceTree = "<group>"; };
+		0487183E18F1188F00F92DDB /* telephone-icon-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telephone-icon-grey.png"; sourceTree = "<group>"; };
+		0487183F18F1188F00F92DDB /* Adressbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adressbook.png; sourceTree = "<group>"; };
+		0487184518F118A700F92DDB /* contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts.png; sourceTree = "<group>"; };
+		0487D11118FEF72A00E44917 /* bar-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-71.png"; sourceTree = "<group>"; };
+		0487D11218FEF72A00E44917 /* generic_business-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "generic_business-71.png"; sourceTree = "<group>"; };
+		0487D11318FEF72A00E44917 /* shopping-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-71.png"; sourceTree = "<group>"; };
+		0487D11418FEF72A00E44917 /* lodging-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lodging-71.png"; sourceTree = "<group>"; };
+		0487D11518FEF72A00E44917 /* restaurant-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant-71.png"; sourceTree = "<group>"; };
+		048839B918F309DF00775233 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		048839BA18F309DF00775233 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		048839BB18F309DF00775233 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		04885A7D18EFB53300175576 /* TypeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeDetailViewController.h; path = ../TypeDetailViewController.h; sourceTree = "<group>"; };
+		04885A7E18EFB53300175576 /* TypeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TypeDetailViewController.m; path = ../TypeDetailViewController.m; sourceTree = "<group>"; };
+		04885A7F18EFB53300175576 /* TypeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TypeDetailViewController.xib; path = ../TypeDetailViewController.xib; sourceTree = "<group>"; };
+		0488FD8618F3A88700DD3D7E /* uipopover+iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uipopover+iphone.h"; sourceTree = "<group>"; };
+		0488FD8718F3A88800DD3D7E /* uipopover+iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "uipopover+iphone.m"; sourceTree = "<group>"; };
+		0489C41F18D60CAA00578688 /* TravelGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489C42318D60CAA00578688 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0489C42518D60CAA00578688 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0489C42718D60CAA00578688 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0489C42B18D60CAA00578688 /* TravelGuide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelGuide-Info.plist"; sourceTree = "<group>"; };
+		0489C42D18D60CAA00578688 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0489C42F18D60CAA00578688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0489C43118D60CAA00578688 /* TravelGuide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelGuide-Prefix.pch"; sourceTree = "<group>"; };
+		0489C43218D60CAA00578688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0489C43318D60CAA00578688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0489C43518D60CAA00578688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0489C43618D60CAA00578688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0489C43918D60CAB00578688 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0489C45118D60E6700578688 /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		0489C45218D60E6700578688 /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		0489C45318D60E6700578688 /* CityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityViewController.xib; sourceTree = "<group>"; };
+		0489C45618D6185C00578688 /* cityGuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityGuideController.h; sourceTree = "<group>"; };
+		0489C45718D6185C00578688 /* cityGuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityGuideController.m; sourceTree = "<group>"; };
+		0489C45818D6185D00578688 /* cityGuideController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cityGuideController.xib; sourceTree = "<group>"; };
+		048C100018F0626700967E09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		048C496B18EDDE38001E731F /* mynewdb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mynewdb.sqlite; sourceTree = "<group>"; };
+		048CC40118EC731300EEFED2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		048EA24318F5A0CC0052D030 /* home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon.png; sourceTree = "<group>"; };
+		048FD76918F5CE4800316AA9 /* abidjan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abidjan.jpg; sourceTree = "<group>"; };
+		048FD76A18F5CE4800316AA9 /* abobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abobo.jpg; sourceTree = "<group>"; };
+		048FD76B18F5CE4800316AA9 /* accra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = accra.jpg; sourceTree = "<group>"; };
+		048FD76C18F5CE4800316AA9 /* addis_ababa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addis_ababa.jpg; sourceTree = "<group>"; };
+		048FD76D18F5CE4800316AA9 /* alexandria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alexandria.jpg; sourceTree = "<group>"; };
+		048FD76E18F5CE4800316AA9 /* algiers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = algiers.jpg; sourceTree = "<group>"; };
+		048FD76F18F5CE4800316AA9 /* annaba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = annaba.jpg; sourceTree = "<group>"; };
+		048FD77018F5CE4800316AA9 /* antananarivo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antananarivo.jpg; sourceTree = "<group>"; };
+		048FD77118F5CE4800316AA9 /* asmara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asmara.jpg; sourceTree = "<group>"; };
+		048FD77218F5CE4800316AA9 /* bab_ezzouar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bab_ezzouar.jpg; sourceTree = "<group>"; };
+		048FD77318F5CE4800316AA9 /* bafoussam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bafoussam.jpg; sourceTree = "<group>"; };
+		048FD77418F5CE4800316AA9 /* bamako.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bamako.jpg; sourceTree = "<group>"; };
+		048FD77518F5CE4800316AA9 /* bamenda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bamenda.jpg; sourceTree = "<group>"; };
+		048FD77618F5CE4800316AA9 /* bangui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bangui.jpg; sourceTree = "<group>"; };
+		048FD77718F5CE4800316AA9 /* bata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bata.jpg; sourceTree = "<group>"; };
+		048FD77818F5CE4800316AA9 /* batna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batna.jpg; sourceTree = "<group>"; };
+		048FD77918F5CE4800316AA9 /* benghazi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benghazi.jpg; sourceTree = "<group>"; };
+		048FD77A18F5CE4800316AA9 /* benguela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benguela.jpg; sourceTree = "<group>"; };
+		048FD77B18F5CE4800316AA9 /* bertoua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bertoua.jpg; sourceTree = "<group>"; };
+		048FD77C18F5CE4800316AA9 /* bimbo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bimbo.jpg; sourceTree = "<group>"; };
+		048FD77D18F5CE4800316AA9 /* biskra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biskra.jpg; sourceTree = "<group>"; };
+		048FD77E18F5CE4800316AA9 /* bissau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bissau.jpg; sourceTree = "<group>"; };
+		048FD77F18F5CE4800316AA9 /* blantyre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blantyre.jpg; sourceTree = "<group>"; };
+		048FD78018F5CE4800316AA9 /* bobodioulasso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobodioulasso.jpg; sourceTree = "<group>"; };
+		048FD78118F5CE4800316AA9 /* boumerdas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boumerdas.jpg; sourceTree = "<group>"; };
+		048FD78218F5CE4800316AA9 /* brazzaville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brazzaville.jpg; sourceTree = "<group>"; };
+		048FD78318F5CE4800316AA9 /* bujumbura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bujumbura.jpg; sourceTree = "<group>"; };
+		048FD78418F5CE4800316AA9 /* cairo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cairo.jpg; sourceTree = "<group>"; };
+		048FD78518F5CE4800316AA9 /* casablanca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = casablanca.jpg; sourceTree = "<group>"; };
+		048FD78618F5CE4800316AA9 /* conakry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = conakry.jpg; sourceTree = "<group>"; };
+		048FD78718F5CE4800316AA9 /* constantine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = constantine.jpg; sourceTree = "<group>"; };
+		048FD78818F5CE4800316AA9 /* cotonou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cotonou.jpg; sourceTree = "<group>"; };
+		048FD78918F5CE4800316AA9 /* dakar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dakar.jpg; sourceTree = "<group>"; };
+		048FD78A18F5CE4800316AA9 /* djibouti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = djibouti.jpg; sourceTree = "<group>"; };
+		048FD78B18F5CE4800316AA9 /* douala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = douala.jpg; sourceTree = "<group>"; };
+		048FD78C18F5CE4800316AA9 /* fez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fez.jpg; sourceTree = "<group>"; };
+		048FD78D18F5CE4800316AA9 /* freetown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = freetown.jpg; sourceTree = "<group>"; };
+		048FD78E18F5CE4800316AA9 /* garoua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garoua.jpg; sourceTree = "<group>"; };
+		048FD78F18F5CE4800316AA9 /* giza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giza.jpg; sourceTree = "<group>"; };
+		048FD79018F5CE4800316AA9 /* grand_dakar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_dakar.jpg; sourceTree = "<group>"; };
+		048FD79118F5CE4800316AA9 /* hargeysa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hargeysa.jpg; sourceTree = "<group>"; };
+		048FD79218F5CE4800316AA9 /* huambo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huambo.jpg; sourceTree = "<group>"; };
+		048FD79318F5CE4800316AA9 /* ibadan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ibadan.jpg; sourceTree = "<group>"; };
+		048FD79418F5CE4800316AA9 /* juba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juba.jpg; sourceTree = "<group>"; };
+		048FD79518F5CE4800316AA9 /* kano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kano.jpg; sourceTree = "<group>"; };
+		048FD79618F5CE4800316AA9 /* khartoum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khartoum.jpg; sourceTree = "<group>"; };
+		048FD79718F5CE4800316AA9 /* kigali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kigali.jpg; sourceTree = "<group>"; };
+		048FD79818F5CE4800316AA9 /* kinshasa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinshasa.jpg; sourceTree = "<group>"; };
+		048FD79918F5CE4800316AA9 /* kisangani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kisangani.jpg; sourceTree = "<group>"; };
+		048FD79A18F5CE4800316AA9 /* koudougou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koudougou.jpg; sourceTree = "<group>"; };
+		048FD79B18F5CE4800316AA9 /* kousseri.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kousseri.JPG; sourceTree = "<group>"; };
+		048FD79C18F5CE4800316AA9 /* kuito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuito.jpg; sourceTree = "<group>"; };
+		048FD79D18F5CE4800316AA9 /* kumasi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kumasi.jpg; sourceTree = "<group>"; };
+		048FD79E18F5CE4800316AA9 /* lagos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lagos.jpg; sourceTree = "<group>"; };
+		048FD79F18F5CE4800316AA9 /* libreville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libreville.jpg; sourceTree = "<group>"; };
+		048FD7A018F5CE4800316AA9 /* lilongwe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lilongwe.jpg; sourceTree = "<group>"; };
+		048FD7A118F5CE4800316AA9 /* lobito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lobito.jpg; sourceTree = "<group>"; };
+		048FD7A218F5CE4800316AA9 /* luanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luanda.jpg; sourceTree = "<group>"; };
+		048FD7A318F5CE4800316AA9 /* lubango.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lubango.jpg; sourceTree = "<group>"; };
+		048FD7A418F5CE4800316AA9 /* lubumbashi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lubumbashi.jpg; sourceTree = "<group>"; };
+		048FD7A518F5CE4800316AA9 /* maputo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maputo.jpg; sourceTree = "<group>"; };
+		048FD7A618F5CE4800316AA9 /* maroua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maroua.jpg; sourceTree = "<group>"; };
+		048FD7A718F5CE4800316AA9 /* maseru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maseru.jpg; sourceTree = "<group>"; };
+		048FD7A818F5CE4800316AA9 /* matola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matola.jpg; sourceTree = "<group>"; };
+		048FD7A918F5CE4800316AA9 /* mogadishu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mogadishu.jpg; sourceTree = "<group>"; };
+		048FD7AA18F5CE4800316AA9 /* mokolo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mokolo.jpg; sourceTree = "<group>"; };
+		048FD7AB18F5CE4800316AA9 /* monrovia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monrovia.jpg; sourceTree = "<group>"; };
+		048FD7AC18F5CE4800316AA9 /* moroni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moroni.jpg; sourceTree = "<group>"; };
+		048FD7AD18F5CE4800316AA9 /* moundou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moundou.jpg; sourceTree = "<group>"; };
+		048FD7AE18F5CE4800316AA9 /* muyinga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muyinga.jpg; sourceTree = "<group>"; };
+		048FD7AF18F5CE4800316AA9 /* ndalatando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ndalatando.jpg; sourceTree = "<group>"; };
+		048FD7B018F5CE4800316AA9 /* ndjamena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ndjamena.jpg; sourceTree = "<group>"; };
+		048FD7B118F5CE4800316AA9 /* ngaoundere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ngaoundere.jpg; sourceTree = "<group>"; };
+		048FD7B218F5CE4800316AA9 /* niamey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niamey.jpg; sourceTree = "<group>"; };
+		048FD7B318F5CE4800316AA9 /* nouakchott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nouakchott.jpg; sourceTree = "<group>"; };
+		048FD7B418F5CE4800316AA9 /* omdurman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = omdurman.jpg; sourceTree = "<group>"; };
+		048FD7B518F5CE4800316AA9 /* oran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oran.jpg; sourceTree = "<group>"; };
+		048FD7B618F5CE4800316AA9 /* ouagadougou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ouagadougou.jpg; sourceTree = "<group>"; };
+		048FD7B718F5CE4800316AA9 /* parakou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parakou.jpg; sourceTree = "<group>"; };
+		048FD7B818F5CE4800316AA9 /* pointe_noire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pointe_noire.jpg; sourceTree = "<group>"; };
+		048FD7B918F5CE4800316AA9 /* portonovo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portonovo.jpg; sourceTree = "<group>"; };
+		048FD7BA18F5CE4800316AA9 /* rabat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rabat.jpg; sourceTree = "<group>"; };
+		048FD7BB18F5CE4800316AA9 /* sarh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarh.jpg; sourceTree = "<group>"; };
+		048FD7BC18F5CE4800316AA9 /* setif.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = setif.jpg; sourceTree = "<group>"; };
+		048FD7BD18F5CE4800316AA9 /* tebessa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tebessa.jpg; sourceTree = "<group>"; };
+		048FD7BE18F5CE4800316AA9 /* tomasina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomasina.jpg; sourceTree = "<group>"; };
+		048FD7BF18F5CE4800316AA9 /* tripoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tripoli.jpg; sourceTree = "<group>"; };
+		048FD7C018F5CE4800316AA9 /* yaounde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yaounde.jpg; sourceTree = "<group>"; };
+		048FD81A18F5CE4F00316AA9 /* abu_dhabi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abu_dhabi.jpg; sourceTree = "<group>"; };
+		048FD81B18F5CE4F00316AA9 /* al_ahmadi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al_ahmadi.jpg; sourceTree = "<group>"; };
+		048FD81C18F5CE4F00316AA9 /* al_hudaydah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al_hudaydah.jpg; sourceTree = "<group>"; };
+		048FD81D18F5CE4F00316AA9 /* al_mawsil_al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al_mawsil_al.jpg; sourceTree = "<group>"; };
+		048FD81E18F5CE4F00316AA9 /* aleppo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aleppo.jpg; sourceTree = "<group>"; };
+		048FD81F18F5CE4F00316AA9 /* almaty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = almaty.jpg; sourceTree = "<group>"; };
+		048FD82018F5CE4F00316AA9 /* amman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amman.jpg; sourceTree = "<group>"; };
+		048FD82118F5CE4F00316AA9 /* ankara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ankara.jpg; sourceTree = "<group>"; };
+		048FD82218F5CE4F00316AA9 /* ashqabat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ashqabat.jpg; sourceTree = "<group>"; };
+		048FD82318F5CE4F00316AA9 /* baghdad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baghdad.jpg; sourceTree = "<group>"; };
+		048FD82418F5CE4F00316AA9 /* bangkok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bangkok.jpg; sourceTree = "<group>"; };
+		048FD82518F5CE4F00316AA9 /* banglore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banglore.jpg; sourceTree = "<group>"; };
+		048FD82618F5CE4F00316AA9 /* basra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basra.jpg; sourceTree = "<group>"; };
+		048FD82718F5CE4F00316AA9 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
+		048FD82818F5CE4F00316AA9 /* beirut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beirut.jpg; sourceTree = "<group>"; };
+		048FD82918F5CE4F00316AA9 /* bishkek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bishkek.jpg; sourceTree = "<group>"; };
+		048FD82A18F5CE4F00316AA9 /* burma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burma.jpg; sourceTree = "<group>"; };
+		048FD82B18F5CE4F00316AA9 /* busan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = busan.jpg; sourceTree = "<group>"; };
+		048FD82C18F5CE4F00316AA9 /* chittagong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chittagong.jpg; sourceTree = "<group>"; };
+		048FD82D18F5CE4F00316AA9 /* colombo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colombo.jpg; sourceTree = "<group>"; };
+		048FD82E18F5CE4F00316AA9 /* damascus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damascus.jpg; sourceTree = "<group>"; };
+		048FD82F18F5CE4F00316AA9 /* delhi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delhi.jpg; sourceTree = "<group>"; };
+		048FD83018F5CE4F00316AA9 /* dhaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dhaka.jpg; sourceTree = "<group>"; };
+		048FD83118F5CE4F00316AA9 /* doha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doha.jpg; sourceTree = "<group>"; };
+		048FD83218F5CE4F00316AA9 /* dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dubai.jpg; sourceTree = "<group>"; };
+		048FD83318F5CE4F00316AA9 /* dushanbe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dushanbe.jpg; sourceTree = "<group>"; };
+		048FD83418F5CE4F00316AA9 /* faisalabad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faisalabad.jpg; sourceTree = "<group>"; };
+		048FD83518F5CE4F00316AA9 /* galkissa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galkissa.jpg; sourceTree = "<group>"; };
+		048FD83618F5CE4F00316AA9 /* havana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = havana.jpg; sourceTree = "<group>"; };
+		048FD83718F5CE4F00316AA9 /* hulu_langat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulu_langat.jpg; sourceTree = "<group>"; };
+		048FD83818F5CE4F00316AA9 /* isfahan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = isfahan.jpg; sourceTree = "<group>"; };
+		048FD83918F5CE4F00316AA9 /* istanbul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istanbul.jpg; sourceTree = "<group>"; };
+		048FD83A18F5CE4F00316AA9 /* izmir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izmir.jpg; sourceTree = "<group>"; };
+		048FD83B18F5CE4F00316AA9 /* jakarta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakarta.jpg; sourceTree = "<group>"; };
+		048FD83C18F5CE4F00316AA9 /* jeddah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeddah.jpg; sourceTree = "<group>"; };
+		048FD83D18F5CE4F00316AA9 /* jerusalem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jerusalem.jpg; sourceTree = "<group>"; };
+		048FD83E18F5CE4F00316AA9 /* kabul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kabul.jpg; sourceTree = "<group>"; };
+		048FD83F18F5CE4F00316AA9 /* kandahar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kandahar.jpg; sourceTree = "<group>"; };
+		048FD84018F5CE4F00316AA9 /* karachi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karachi.jpg; sourceTree = "<group>"; };
+		048FD84118F5CE4F00316AA9 /* kathmandu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kathmandu.jpg; sourceTree = "<group>"; };
+		048FD84218F5CE4F00316AA9 /* khulna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khulna.jpg; sourceTree = "<group>"; };
+		048FD84318F5CE4F00316AA9 /* kolkata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kolkata.jpg; sourceTree = "<group>"; };
+		048FD84418F5CE4F00316AA9 /* kuala_lumpur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuala_lumpur.jpg; sourceTree = "<group>"; };
+		048FD84518F5CE4F00316AA9 /* lahore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lahore.jpg; sourceTree = "<group>"; };
+		048FD84618F5CE4F00316AA9 /* manama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manama.jpg; sourceTree = "<group>"; };
+		048FD84718F5CE4F00316AA9 /* mandalay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mandalay.jpg; sourceTree = "<group>"; };
+		048FD84818F5CE4F00316AA9 /* mashhad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mashhad.jpg; sourceTree = "<group>"; };
+		048FD84918F5CE4F00316AA9 /* mecca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mecca.jpg; sourceTree = "<group>"; };
+		048FD84A18F5CE4F00316AA9 /* medan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medan.jpg; sourceTree = "<group>"; };
+		048FD84B18F5CE4F00316AA9 /* medina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medina.jpg; sourceTree = "<group>"; };
+		048FD84C18F5CE4F00316AA9 /* moscow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moscow.jpg; sourceTree = "<group>"; };
+		048FD84D18F5CE4F00316AA9 /* mueang_samut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mueang_samut.jpg; sourceTree = "<group>"; };
+		048FD84E18F5CE4F00316AA9 /* mumbai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mumbai.jpg; sourceTree = "<group>"; };
+		048FD84F18F5CE4F00316AA9 /* muscat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muscat.jpg; sourceTree = "<group>"; };
+		048FD85018F5CE4F00316AA9 /* namangan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namangan.jpg; sourceTree = "<group>"; };
+		048FD85118F5CE4F00316AA9 /* nanchong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nanchong.jpg; sourceTree = "<group>"; };
+		048FD85218F5CE4F00316AA9 /* nizhny_novgorod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nizhny_novgorod.jpg; sourceTree = "<group>"; };
+		048FD85318F5CE4F00316AA9 /* novosibirsk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = novosibirsk.jpg; sourceTree = "<group>"; };
+		048FD85418F5CE4F00316AA9 /* osaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osaka.jpg; sourceTree = "<group>"; };
+		048FD85518F5CE4F00316AA9 /* petaling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petaling.jpg; sourceTree = "<group>"; };
+		048FD85618F5CE4F00316AA9 /* pyongyang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pyongyang.jpg; sourceTree = "<group>"; };
+		048FD85718F5CE4F00316AA9 /* ras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ras.jpg; sourceTree = "<group>"; };
+		048FD85818F5CE4F00316AA9 /* riyadh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riyadh.jpg; sourceTree = "<group>"; };
+		048FD85918F5CE4F00316AA9 /* saint_petersburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saint_petersburg.jpg; sourceTree = "<group>"; };
+		048FD85A18F5CE4F00316AA9 /* sanaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanaa.jpg; sourceTree = "<group>"; };
+		048FD85B18F5CE4F00316AA9 /* santiago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santiago.jpg; sourceTree = "<group>"; };
+		048FD85C18F5CE4F00316AA9 /* seoul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seoul.jpg; sourceTree = "<group>"; };
+		048FD85D18F5CE4F00316AA9 /* shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shanghai.jpg; sourceTree = "<group>"; };
+		048FD85E18F5CE4F00316AA9 /* sharjah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharjah.jpg; sourceTree = "<group>"; };
+		048FD85F18F5CE4F00316AA9 /* singapore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singapore.jpg; sourceTree = "<group>"; };
+		048FD86018F5CE4F00316AA9 /* surabaya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surabaya.jpg; sourceTree = "<group>"; };
+		048FD86118F5CE4F00316AA9 /* tashkent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tashkent.jpg; sourceTree = "<group>"; };
+		048FD86218F5CE4F00316AA9 /* tehran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tehran.jpg; sourceTree = "<group>"; };
+		048FD86318F5CE4F00316AA9 /* tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyo.jpg; sourceTree = "<group>"; };
+		048FD86418F5CE4F00316AA9 /* ulanbaatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ulanbaatar.jpg; sourceTree = "<group>"; };
+		048FD86518F5CE4F00316AA9 /* vientiane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vientiane.jpg; sourceTree = "<group>"; };
+		048FD86618F5CE4F00316AA9 /* yangon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangon.jpg; sourceTree = "<group>"; };
+		048FD86718F5CE4F00316AA9 /* yekaterinburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yekaterinburg.jpg; sourceTree = "<group>"; };
+		048FD86818F5CE4F00316AA9 /* yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yokohama.jpg; sourceTree = "<group>"; };
+		048FD86918F5CE4F00316AA9 /* zhumadian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhumadian.jpg; sourceTree = "<group>"; };
+		048FD8BB18F5CE6300316AA9 /* adelaide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adelaide.jpg; sourceTree = "<group>"; };
+		048FD8BC18F5CE6300316AA9 /* auckland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = auckland.jpg; sourceTree = "<group>"; };
+		048FD8BD18F5CE6300316AA9 /* brisbane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brisbane.jpg; sourceTree = "<group>"; };
+		048FD8BE18F5CE6300316AA9 /* christchurch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christchurch.jpg; sourceTree = "<group>"; };
+		048FD8BF18F5CE6300316AA9 /* manukau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manukau.jpg; sourceTree = "<group>"; };
+		048FD8C018F5CE6300316AA9 /* melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = melbourne.jpg; sourceTree = "<group>"; };
+		048FD8C118F5CE6300316AA9 /* north_shore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = north_shore.jpg; sourceTree = "<group>"; };
+		048FD8C218F5CE6300316AA9 /* perth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perth.jpg; sourceTree = "<group>"; };
+		048FD8C318F5CE6300316AA9 /* port_moresby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = port_moresby.jpg; sourceTree = "<group>"; };
+		048FD8C418F5CE6300316AA9 /* sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sydney.jpg; sourceTree = "<group>"; };
+		048FD8C518F5CE6300316AA9 /* waitakere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waitakere.jpg; sourceTree = "<group>"; };
+		048FD8C618F5CE6300316AA9 /* wellington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wellington.jpg; sourceTree = "<group>"; };
+		048FD8D418F5CE7900316AA9 /* atlanta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atlanta.jpg; sourceTree = "<group>"; };
+		048FD8D518F5CE7900316AA9 /* boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston.jpg; sourceTree = "<group>"; };
+		048FD8D618F5CE7900316AA9 /* calgary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calgary.jpg; sourceTree = "<group>"; };
+		048FD8D718F5CE7900316AA9 /* camaguey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaguey.jpg; sourceTree = "<group>"; };
+		048FD8D818F5CE7900316AA9 /* carrefour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrefour.jpg; sourceTree = "<group>"; };
+		048FD8D918F5CE7900316AA9 /* choloma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = choloma.jpg; sourceTree = "<group>"; };
+		048FD8DA18F5CE7900316AA9 /* dallas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dallas.jpg; sourceTree = "<group>"; };
+		048FD8DB18F5CE7900316AA9 /* delmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delmas.jpg; sourceTree = "<group>"; };
+		048FD8DC18F5CE7900316AA9 /* detroit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detroit.jpg; sourceTree = "<group>"; };
+		048FD8DD18F5CE7900316AA9 /* ecatepec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ecatepec.jpg; sourceTree = "<group>"; };
+		048FD8DE18F5CE7900316AA9 /* guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guadalajara.jpg; sourceTree = "<group>"; };
+		048FD8DF18F5CE7900316AA9 /* guatemala_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guatemala_city.jpg; sourceTree = "<group>"; };
+		048FD8E018F5CE7900316AA9 /* havana_n_a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = havana_n_a.jpg; sourceTree = "<group>"; };
+		048FD8E118F5CE7900316AA9 /* holguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = holguin.jpg; sourceTree = "<group>"; };
+		048FD8E218F5CE7900316AA9 /* iztapalapa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iztapalapa.jpg; sourceTree = "<group>"; };
+		048FD8E318F5CE7900316AA9 /* kingston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingston.jpg; sourceTree = "<group>"; };
+		048FD8E418F5CE7900316AA9 /* laventille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laventille.jpg; sourceTree = "<group>"; };
+		048FD8E518F5CE7900316AA9 /* leon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leon.jpg; sourceTree = "<group>"; };
+		048FD8E618F5CE7900316AA9 /* los_angeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = los_angeles.jpg; sourceTree = "<group>"; };
+		048FD8E718F5CE7900316AA9 /* managua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = managua.jpg; sourceTree = "<group>"; };
+		048FD8E818F5CE7900316AA9 /* mexico_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mexico_city.jpg; sourceTree = "<group>"; };
+		048FD8E918F5CE7900316AA9 /* miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miami.jpg; sourceTree = "<group>"; };
+		048FD8EA18F5CE7900316AA9 /* mixco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mixco.jpg; sourceTree = "<group>"; };
+		048FD8EB18F5CE7900316AA9 /* montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montreal.jpg; sourceTree = "<group>"; };
+		048FD8EC18F5CE7900316AA9 /* nassau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nassau.jpg; sourceTree = "<group>"; };
+		048FD8ED18F5CE7900316AA9 /* new_kingston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_kingston.jpg; sourceTree = "<group>"; };
+		048FD8EE18F5CE7900316AA9 /* new_york.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_york.jpg; sourceTree = "<group>"; };
+		048FD8EF18F5CE7900316AA9 /* panama_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panama_city.jpg; sourceTree = "<group>"; };
+		048FD8F018F5CE7900316AA9 /* philadelphia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = philadelphia.jpg; sourceTree = "<group>"; };
+		048FD8F118F5CE7900316AA9 /* port_au_prince.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = port_au_prince.jpg; sourceTree = "<group>"; };
+		048FD8F218F5CE7900316AA9 /* san_jose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_jose.jpg; sourceTree = "<group>"; };
+		048FD8F318F5CE7900316AA9 /* san_muglieto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_muglieto.jpg; sourceTree = "<group>"; };
+		048FD8F418F5CE7900316AA9 /* san_pedro_de_macoris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_pedro_de_macoris.jpg; sourceTree = "<group>"; };
+		048FD8F518F5CE7900316AA9 /* san_pedro_sula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_pedro_sula.jpg; sourceTree = "<group>"; };
+		048FD8F618F5CE7900316AA9 /* san_salvador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_salvador.jpg; sourceTree = "<group>"; };
+		048FD8F718F5CE7900316AA9 /* santa_ana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa_ana.jpg; sourceTree = "<group>"; };
+		048FD8F818F5CE7900316AA9 /* santiago_de_cuba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santiago_de_cuba.jpg; sourceTree = "<group>"; };
+		048FD8F918F5CE7900316AA9 /* santiago_de_los.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santiago_de_los.jpg; sourceTree = "<group>"; };
+		048FD8FA18F5CE7900316AA9 /* santo_domingo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santo_domingo.jpg; sourceTree = "<group>"; };
+		048FD8FB18F5CE7900316AA9 /* santo_domingo_oesto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santo_domingo_oesto.jpg; sourceTree = "<group>"; };
+		048FD8FC18F5CE7900316AA9 /* soyapango.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soyapango.jpg; sourceTree = "<group>"; };
+		048FD8FD18F5CE7900316AA9 /* spanish_town.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spanish_town.jpg; sourceTree = "<group>"; };
+		048FD8FE18F5CE7900316AA9 /* tegucigalpa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tegucigalpa.jpg; sourceTree = "<group>"; };
+		048FD8FF18F5CE7900316AA9 /* toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toronto.jpg; sourceTree = "<group>"; };
+		048FD90018F5CE7900316AA9 /* vancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vancouver.jpg; sourceTree = "<group>"; };
+		048FD90118F5CE7900316AA9 /* villa_nueva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = villa_nueva.jpg; sourceTree = "<group>"; };
+		048FD90218F5CE7900316AA9 /* washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washington.jpg; sourceTree = "<group>"; };
+		048FD93318F5CE8200316AA9 /* aarhus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aarhus.jpg; sourceTree = "<group>"; };
+		048FD93418F5CE8200316AA9 /* amadora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amadora.jpg; sourceTree = "<group>"; };
+		048FD93518F5CE8200316AA9 /* amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amsterdam.jpg; sourceTree = "<group>"; };
+		048FD93618F5CE8200316AA9 /* antwerp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antwerp.jpg; sourceTree = "<group>"; };
+		048FD93718F5CE8200316AA9 /* athens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = athens.jpg; sourceTree = "<group>"; };
+		048FD93818F5CE8200316AA9 /* baku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baku.jpg; sourceTree = "<group>"; };
+		048FD93918F5CE8200316AA9 /* banja_luka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banja_luka.jpg; sourceTree = "<group>"; };
+		048FD93A18F5CE8200316AA9 /* barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpg; sourceTree = "<group>"; };
+		048FD93B18F5CE8200316AA9 /* basel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basel.jpg; sourceTree = "<group>"; };
+		048FD93C18F5CE8200316AA9 /* belgrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belgrade.jpg; sourceTree = "<group>"; };
+		048FD93D18F5CE8200316AA9 /* bergen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bergen.jpg; sourceTree = "<group>"; };
+		048FD93E18F5CE8200316AA9 /* berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berlin.jpg; sourceTree = "<group>"; };
+		048FD93F18F5CE8200316AA9 /* berne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berne.jpg; sourceTree = "<group>"; };
+		048FD94018F5CE8200316AA9 /* birmingham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = birmingham.jpg; sourceTree = "<group>"; };
+		048FD94118F5CE8200316AA9 /* bratislava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bratislava.jpg; sourceTree = "<group>"; };
+		048FD94218F5CE8200316AA9 /* brussels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brussels.jpg; sourceTree = "<group>"; };
+		048FD94318F5CE8200316AA9 /* bucharest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bucharest.jpg; sourceTree = "<group>"; };
+		048FD94418F5CE8200316AA9 /* budapest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = budapest.jpg; sourceTree = "<group>"; };
+		048FD94518F5CE8200316AA9 /* cluj_napoca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cluj_napoca.jpg; sourceTree = "<group>"; };
+		048FD94618F5CE8200316AA9 /* cologne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cologne.jpg; sourceTree = "<group>"; };
+		048FD94718F5CE8200316AA9 /* copenhagon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = copenhagon.jpg; sourceTree = "<group>"; };
+		048FD94818F5CE8200316AA9 /* cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork.jpg; sourceTree = "<group>"; };
+		048FD94918F5CE8200316AA9 /* debrecen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debrecen.jpg; sourceTree = "<group>"; };
+		048FD94A18F5CE8200316AA9 /* dnipropetrovsk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dnipropetrovsk.jpg; sourceTree = "<group>"; };
+		048FD94B18F5CE8200316AA9 /* donetsk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donetsk.jpg; sourceTree = "<group>"; };
+		048FD94C18F5CE8200316AA9 /* dublin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dublin.jpg; sourceTree = "<group>"; };
+		048FD94D18F5CE8200316AA9 /* espoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = espoo.jpg; sourceTree = "<group>"; };
+		048FD94E18F5CE8200316AA9 /* ganja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganja.jpg; sourceTree = "<group>"; };
+		048FD94F18F5CE8200316AA9 /* geneva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geneva.jpg; sourceTree = "<group>"; };
+		048FD95018F5CE8200316AA9 /* glasglow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glasglow.jpg; sourceTree = "<group>"; };
+		048FD95118F5CE8200316AA9 /* gomel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gomel.jpg; sourceTree = "<group>"; };
+		048FD95218F5CE8200316AA9 /* gothenburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gothenburg.jpg; sourceTree = "<group>"; };
+		048FD95318F5CE8200316AA9 /* graza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graza.jpg; sourceTree = "<group>"; };
+		048FD95418F5CE8200316AA9 /* hamburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburg.jpg; sourceTree = "<group>"; };
+		048FD95518F5CE8200316AA9 /* helsinki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helsinki.jpg; sourceTree = "<group>"; };
+		048FD95618F5CE8200316AA9 /* iasi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iasi.jpg; sourceTree = "<group>"; };
+		048FD95718F5CE8200316AA9 /* kaunas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kaunas.jpg; sourceTree = "<group>"; };
+		048FD95818F5CE8200316AA9 /* kharkiv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kharkiv.jpg; sourceTree = "<group>"; };
+		048FD95918F5CE8200316AA9 /* kosice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kosice.jpg; sourceTree = "<group>"; };
+		048FD95A18F5CE8200316AA9 /* krakow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = krakow.jpg; sourceTree = "<group>"; };
+		048FD95B18F5CE8200316AA9 /* kutaisi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kutaisi.jpg; sourceTree = "<group>"; };
+		048FD95C18F5CE8200316AA9 /* kyiv_ukraine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyiv_ukraine.jpg; sourceTree = "<group>"; };
+		048FD95D18F5CE8200316AA9 /* leeds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leeds.jpg; sourceTree = "<group>"; };
+		048FD95E18F5CE8200316AA9 /* limassol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = limassol.jpg; sourceTree = "<group>"; };
+		048FD95F18F5CE8200316AA9 /* lisbon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lisbon.jpg; sourceTree = "<group>"; };
+		048FD96018F5CE8200316AA9 /* liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liverpool.jpg; sourceTree = "<group>"; };
+		048FD96118F5CE8200316AA9 /* ljubljana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ljubljana.jpg; sourceTree = "<group>"; };
+		048FD96218F5CE8200316AA9 /* lodz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lodz.jpg; sourceTree = "<group>"; };
+		048FD96318F5CE8200316AA9 /* london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london.jpg; sourceTree = "<group>"; };
+		048FD96418F5CE8200316AA9 /* lyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lyon.jpg; sourceTree = "<group>"; };
+		048FD96518F5CE8200316AA9 /* madrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madrid.jpg; sourceTree = "<group>"; };
+		048FD96618F5CE8200316AA9 /* malmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malmo.jpg; sourceTree = "<group>"; };
+		048FD96718F5CE8200316AA9 /* manchester.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manchester.jpg; sourceTree = "<group>"; };
+		048FD96818F5CE8200316AA9 /* marseille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marseille.jpg; sourceTree = "<group>"; };
+		048FD96918F5CE8200316AA9 /* milan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milan.jpg; sourceTree = "<group>"; };
+		048FD96A18F5CE8200316AA9 /* minsk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minsk.jpg; sourceTree = "<group>"; };
+		048FD96B18F5CE8200316AA9 /* munich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munich.jpg; sourceTree = "<group>"; };
+		048FD96C18F5CE8200316AA9 /* naples.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naples.jpg; sourceTree = "<group>"; };
+		048FD96D18F5CE8200316AA9 /* nautical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nautical.jpg; sourceTree = "<group>"; };
+		048FD96E18F5CE8200316AA9 /* nicosia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicosia.jpg; sourceTree = "<group>"; };
+		048FD96F18F5CE8200316AA9 /* nis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nis.jpg; sourceTree = "<group>"; };
+		048FD97018F5CE8200316AA9 /* novi_sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = novi_sad.jpg; sourceTree = "<group>"; };
+		048FD97118F5CE8200316AA9 /* odense.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odense.jpg; sourceTree = "<group>"; };
+		048FD97218F5CE8200316AA9 /* oslo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oslo.jpg; sourceTree = "<group>"; };
+		048FD97318F5CE8200316AA9 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
+		048FD97418F5CE8200316AA9 /* plovdiv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plovdiv.jpg; sourceTree = "<group>"; };
+		048FD97518F5CE8200316AA9 /* podgorica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = podgorica.jpg; sourceTree = "<group>"; };
+		048FD97618F5CE8200316AA9 /* posto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = posto.jpg; sourceTree = "<group>"; };
+		048FD97718F5CE8200316AA9 /* reykjavik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reykjavik.jpg; sourceTree = "<group>"; };
+		048FD97818F5CE8200316AA9 /* rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rome.jpg; sourceTree = "<group>"; };
+		048FD97918F5CE8200316AA9 /* rotterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotterdam.jpg; sourceTree = "<group>"; };
+		048FD97A18F5CE8200316AA9 /* sarajevo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarajevo.jpg; sourceTree = "<group>"; };
+		048FD97B18F5CE8200316AA9 /* seville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seville.jpg; sourceTree = "<group>"; };
+		048FD97C18F5CE8200316AA9 /* skopje.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skopje.jpg; sourceTree = "<group>"; };
+		048FD97D18F5CE8200316AA9 /* sofia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sofia.jpg; sourceTree = "<group>"; };
+		048FD97E18F5CE8200316AA9 /* split.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = split.jpg; sourceTree = "<group>"; };
+		048FD97F18F5CE8200316AA9 /* stockholm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stockholm.jpg; sourceTree = "<group>"; };
+		048FD98018F5CE8200316AA9 /* tallinn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tallinn.jpg; sourceTree = "<group>"; };
+		048FD98118F5CE8200316AA9 /* tampere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tampere.jpg; sourceTree = "<group>"; };
+		048FD98218F5CE8200316AA9 /* tbilisi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tbilisi.jpg; sourceTree = "<group>"; };
+		048FD98318F5CE8200316AA9 /* the_hague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_hague.jpg; sourceTree = "<group>"; };
+		048FD98418F5CE8200316AA9 /* thessaloniki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thessaloniki.jpg; sourceTree = "<group>"; };
+		048FD98518F5CE8200316AA9 /* tirana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tirana.jpg; sourceTree = "<group>"; };
+		048FD98618F5CE8200316AA9 /* toulouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toulouse.jpg; sourceTree = "<group>"; };
+		048FD98718F5CE8200316AA9 /* turin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turin.jpg; sourceTree = "<group>"; };
+		048FD98818F5CE8200316AA9 /* utrecht.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = utrecht.jpg; sourceTree = "<group>"; };
+		048FD98918F5CE8200316AA9 /* valencia_europe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valencia_europe.jpg; sourceTree = "<group>"; };
+		048FD98A18F5CE8200316AA9 /* vienna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vienna.jpg; sourceTree = "<group>"; };
+		048FD98B18F5CE8200316AA9 /* vilnius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vilnius.jpg; sourceTree = "<group>"; };
+		048FD98C18F5CE8200316AA9 /* warsaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warsaw.jpg; sourceTree = "<group>"; };
+		048FD98D18F5CE8200316AA9 /* yerevan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yerevan.jpg; sourceTree = "<group>"; };
+		048FD98E18F5CE8200316AA9 /* zagreb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zagreb.jpg; sourceTree = "<group>"; };
+		048FD98F18F5CE8200316AA9 /* zurich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zurich.jpg; sourceTree = "<group>"; };
+		048FD9EE18F5CE9400316AA9 /* antofagasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antofagasta.jpg; sourceTree = "<group>"; };
+		048FD9EF18F5CE9400316AA9 /* arequipa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arequipa.jpg; sourceTree = "<group>"; };
+		048FD9F018F5CE9400316AA9 /* asuncion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asuncion.jpg; sourceTree = "<group>"; };
+		048FD9F118F5CE9400316AA9 /* barranquilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barranquilla.jpg; sourceTree = "<group>"; };
+		048FD9F218F5CE9400316AA9 /* belo_horizonte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = belo_horizonte.jpg; sourceTree = "<group>"; };
+		048FD9F318F5CE9400316AA9 /* bogota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bogota.jpg; sourceTree = "<group>"; };
+		048FD9F418F5CE9400316AA9 /* brasilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brasilia.jpg; sourceTree = "<group>"; };
+		048FD9F518F5CE9400316AA9 /* buenos_aries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buenos_aries.jpg; sourceTree = "<group>"; };
+		048FD9F618F5CE9400316AA9 /* caracas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caracas.jpg; sourceTree = "<group>"; };
+		048FD9F718F5CE9400316AA9 /* ciudad_del_este.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciudad_del_este.jpg; sourceTree = "<group>"; };
+		048FD9F818F5CE9400316AA9 /* cochabamba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cochabamba.jpg; sourceTree = "<group>"; };
+		048FD9F918F5CE9400316AA9 /* cordoba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cordoba.jpg; sourceTree = "<group>"; };
+		048FD9FA18F5CE9400316AA9 /* fortaleza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fortaleza.jpg; sourceTree = "<group>"; };
+		048FD9FB18F5CE9400316AA9 /* georgetown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgetown.jpg; sourceTree = "<group>"; };
+		048FD9FC18F5CE9400316AA9 /* guayaquil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guayaquil.jpg; sourceTree = "<group>"; };
+		048FD9FD18F5CE9400316AA9 /* la_paz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = la_paz.jpg; sourceTree = "<group>"; };
+		048FD9FE18F5CE9400316AA9 /* lima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lima.jpg; sourceTree = "<group>"; };
+		048FD9FF18F5CE9400316AA9 /* maracaibo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maracaibo.jpg; sourceTree = "<group>"; };
+		048FDA0018F5CE9400316AA9 /* maracay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maracay.jpg; sourceTree = "<group>"; };
+		048FDA0118F5CE9400316AA9 /* medellin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medellin.jpg; sourceTree = "<group>"; };
+		048FDA0218F5CE9400316AA9 /* mendoza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendoza.jpg; sourceTree = "<group>"; };
+		048FDA0318F5CE9400316AA9 /* montevideo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montevideo.jpg; sourceTree = "<group>"; };
+		048FDA0418F5CE9400316AA9 /* paramaribo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paramaribo.jpg; sourceTree = "<group>"; };
+		048FDA0518F5CE9400316AA9 /* puente_alto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puente_alto.jpg; sourceTree = "<group>"; };
+		048FDA0618F5CE9400316AA9 /* quito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quito.jpg; sourceTree = "<group>"; };
+		048FDA0718F5CE9400316AA9 /* rio_di.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rio_di.jpg; sourceTree = "<group>"; };
+		048FDA0818F5CE9400316AA9 /* rosario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosario.jpg; sourceTree = "<group>"; };
+		048FDA0918F5CE9400316AA9 /* salvador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salvador.jpg; sourceTree = "<group>"; };
+		048FDA0A18F5CE9400316AA9 /* santa_cruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa_cruz.jpg; sourceTree = "<group>"; };
+		048FDA0B18F5CE9400316AA9 /* santiago_de_cali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santiago_de_cali.jpg; sourceTree = "<group>"; };
+		048FDA0C18F5CE9400316AA9 /* santiago_s_a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santiago_s_a.jpg; sourceTree = "<group>"; };
+		048FDA0D18F5CE9400316AA9 /* sao_paulo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sao_paulo.jpg; sourceTree = "<group>"; };
+		048FDA0E18F5CE9400316AA9 /* sucre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sucre.jpg; sourceTree = "<group>"; };
+		048FDA0F18F5CE9400316AA9 /* valencia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valencia.jpg; sourceTree = "<group>"; };
+		0490BABD1903AA410004C14E /* placessDetailData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placessDetailData.h; sourceTree = "<group>"; };
+		0490BABE1903AA410004C14E /* placessDetailData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placessDetailData.m; sourceTree = "<group>"; };
+		04912C8918FC712C0023B036 /* Google-Maps-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Maps-icon.png"; sourceTree = "<group>"; };
+		0492E5FE18E9BEC7004A343F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0492E60118E9BED3004A343F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04969FC518FFB86B00150B83 /* worship_hindu-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worship_hindu-71.png"; sourceTree = "<group>"; };
+		04969FC618FFB86B00150B83 /* library-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library-71.png"; sourceTree = "<group>"; };
+		04969FC718FFB86B00150B83 /* museum-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "museum-71.png"; sourceTree = "<group>"; };
+		04969FC818FFB86B00150B83 /* generic_recreational-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "generic_recreational-71.png"; sourceTree = "<group>"; };
+		04969FC918FFB86B00150B83 /* art_gallery-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "art_gallery-71.png"; sourceTree = "<group>"; };
+		04969FCA18FFB86C00150B83 /* worship_general-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worship_general-71.png"; sourceTree = "<group>"; };
+		04A740AF18EFD99200B37473 /* mapBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapBtn.png; sourceTree = "<group>"; };
+		04BD507818FD4CFD00D4A035 /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log.png; sourceTree = "<group>"; };
+		04BD507A18FD4D1100D4A035 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		04C40AE718EB89F50038BE70 /* ExistingDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingDatabase.h; sourceTree = "<group>"; };
+		04C40AE818EB89F50038BE70 /* ExistingDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingDatabase.m; sourceTree = "<group>"; };
+		04C4A8BD18EF4700003F8125 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		04C4A8BE18EF4700003F8125 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		04C4A8BF18EF4700003F8125 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = ../MapViewController.xib; sourceTree = "<group>"; };
+		04E2B23618E3E99600822E0D /* entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = "<group>"; };
+		04E2B23818E3EA5800822E0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04EF6D7318EF548000180AE6 /* map_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_marker.png; sourceTree = "<group>"; };
+		04EFBE9018E258D600483297 /* ag_continent_africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_africa.png; sourceTree = "<group>"; };
+		04EFBE9118E258D700483297 /* ag_continent_america.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_america.png; sourceTree = "<group>"; };
+		04EFBE9218E258D700483297 /* ag_continent_asia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_asia.png; sourceTree = "<group>"; };
+		04EFBE9318E258D700483297 /* ag_continent_euro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_euro.png; sourceTree = "<group>"; };
+		04EFBE9418E258D700483297 /* ag_continent_north_america.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_north_america.png; sourceTree = "<group>"; };
+		04EFBE9518E258D700483297 /* ag_continent_oceania.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ag_continent_oceania.png; sourceTree = "<group>"; };
+		04F3535E18E2AF5D00EA7C12 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		04F54EA918F1D6DA00A244DB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		04FD266518EE2DC2008AA924 /* jsonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsonClass.h; path = ../jsonClass.h; sourceTree = "<group>"; };
+		04FD266618EE2DC2008AA924 /* jsonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jsonClass.m; path = ../jsonClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489C41C18D60CAA00578688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C100118F0626700967E09 /* QuartzCore.framework in Frameworks */,
+				048CC40218EC731300EEFED2 /* iAd.framework in Frameworks */,
+				0492E60218E9BED3004A343F /* CoreLocation.framework in Frameworks */,
+				0492E5FF18E9BEC7004A343F /* MapKit.framework in Frameworks */,
+				04F3535F18E2AF5E00EA7C12 /* libsqlite3.dylib in Frameworks */,
+				0489C42418D60CAA00578688 /* UIKit.framework in Frameworks */,
+				0489C42618D60CAA00578688 /* Foundation.framework in Frameworks */,
+				0489C42818D60CAA00578688 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0489C41418D60CAA00578688 = {
+			isa = PBXGroup;
+			children = (
+				04BD507A18FD4D1100D4A035 /* logo.png */,
+				048C100018F0626700967E09 /* QuartzCore.framework */,
+				048CC40118EC731300EEFED2 /* iAd.framework */,
+				0492E60118E9BED3004A343F /* CoreLocation.framework */,
+				0492E5FE18E9BEC7004A343F /* MapKit.framework */,
+				04E2B23818E3EA5800822E0D /* Default.png */,
+				048C496B18EDDE38001E731F /* mynewdb.sqlite */,
+				04F3535E18E2AF5D00EA7C12 /* libsqlite3.dylib */,
+				0489C42918D60CAA00578688 /* MyCityGuide */,
+				0489C42218D60CAA00578688 /* Frameworks */,
+				0489C42018D60CAA00578688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0489C42018D60CAA00578688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0489C41F18D60CAA00578688 /* TravelGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0489C42218D60CAA00578688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0489C42318D60CAA00578688 /* UIKit.framework */,
+				0489C42518D60CAA00578688 /* Foundation.framework */,
+				0489C42718D60CAA00578688 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0489C42918D60CAA00578688 /* MyCityGuide */ = {
+			isa = PBXGroup;
+			children = (
+				0489C44018D60D7100578688 /* images */,
+				0489C43218D60CAA00578688 /* AppDelegate.h */,
+				0489C43318D60CAA00578688 /* AppDelegate.m */,
+				0489C43518D60CAA00578688 /* ViewController.h */,
+				0489C43618D60CAA00578688 /* ViewController.m */,
+				0489C43818D60CAB00578688 /* ViewController.xib */,
+				0489C45618D6185C00578688 /* cityGuideController.h */,
+				0489C45718D6185C00578688 /* cityGuideController.m */,
+				0489C45818D6185D00578688 /* cityGuideController.xib */,
+				0462FA8518DA553D00ED0211 /* DownloadGuideViewController.h */,
+				0462FA8618DA553E00ED0211 /* DownloadGuideViewController.m */,
+				0462FA8718DA553F00ED0211 /* DownloadGuideViewController.xib */,
+				0489C45118D60E6700578688 /* CityViewController.h */,
+				0489C45218D60E6700578688 /* CityViewController.m */,
+				0489C45318D60E6700578688 /* CityViewController.xib */,
+				043087AE18EB49340017469D /* cityDetailViewController.h */,
+				043087AF18EB49340017469D /* cityDetailViewController.m */,
+				043087B018EB49340017469D /* cityDetailViewController.xib */,
+				04885A7D18EFB53300175576 /* TypeDetailViewController.h */,
+				04885A7E18EFB53300175576 /* TypeDetailViewController.m */,
+				04885A7F18EFB53300175576 /* TypeDetailViewController.xib */,
+				04C4A8BD18EF4700003F8125 /* MapViewController.h */,
+				04C4A8BE18EF4700003F8125 /* MapViewController.m */,
+				04C4A8BF18EF4700003F8125 /* MapViewController.xib */,
+				04FD266518EE2DC2008AA924 /* jsonClass.h */,
+				04FD266618EE2DC2008AA924 /* jsonClass.m */,
+				0489C42A18D60CAA00578688 /* Supporting Files */,
+				04E2B23618E3E99600822E0D /* entitlements.plist */,
+				04C40AE718EB89F50038BE70 /* ExistingDatabase.h */,
+				04C40AE818EB89F50038BE70 /* ExistingDatabase.m */,
+				048839B918F309DF00775233 /* TableViewController.h */,
+				048839BA18F309DF00775233 /* TableViewController.m */,
+				048839BB18F309DF00775233 /* TableViewController.xib */,
+				0488FD8618F3A88700DD3D7E /* uipopover+iphone.h */,
+				0488FD8718F3A88800DD3D7E /* uipopover+iphone.m */,
+				0490BABD1903AA410004C14E /* placessDetailData.h */,
+				0490BABE1903AA410004C14E /* placessDetailData.m */,
+				043795E91903B3F100EEA9CD /* tempDataBase.h */,
+				043795EA1903B3F100EEA9CD /* tempDataBase.m */,
+				04649084190E7825001226E7 /* downloadedCityGuidesClass.h */,
+				04649085190E7825001226E7 /* downloadedCityGuidesClass.m */,
+				04649086190E7825001226E7 /* downloadedCityGuidesClass.xib */,
+				0484F218190E882F00DE9F10 /* NextViewOfDownloadClass.h */,
+				0484F219190E882F00DE9F10 /* NextViewOfDownloadClass.m */,
+				0484F21A190E882F00DE9F10 /* NextViewOfDownloadClass.xib */,
+				047D318A190EA4E40026FA14 /* listofviewOfclass.h */,
+				047D318B190EA4E40026FA14 /* listofviewOfclass.m */,
+				047D318C190EA4E40026FA14 /* listofviewOfclass.xib */,
+				0471B776190ECEDD009E74F0 /* ListDetailView.h */,
+				0471B777190ECEDD009E74F0 /* ListDetailView.m */,
+				0471B778190ECEDD009E74F0 /* ListDetailView.xib */,
+				041998451910F98600B2508F /* MapPoint.h */,
+				041998461910F98600B2508F /* MapPoint.m */,
+			);
+			path = MyCityGuide;
+			sourceTree = "<group>";
+		};
+		0489C42A18D60CAA00578688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0489C42B18D60CAA00578688 /* TravelGuide-Info.plist */,
+				0489C42C18D60CAA00578688 /* InfoPlist.strings */,
+				0489C42F18D60CAA00578688 /* main.m */,
+				0489C43118D60CAA00578688 /* TravelGuide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0489C44018D60D7100578688 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0439193E190EC36F0028787C /* cafe-71.png */,
+				04969FC518FFB86B00150B83 /* worship_hindu-71.png */,
+				04969FC618FFB86B00150B83 /* library-71.png */,
+				04969FC718FFB86B00150B83 /* museum-71.png */,
+				04969FC818FFB86B00150B83 /* generic_recreational-71.png */,
+				04969FC918FFB86B00150B83 /* art_gallery-71.png */,
+				04969FCA18FFB86C00150B83 /* worship_general-71.png */,
+				0487D11118FEF72A00E44917 /* bar-71.png */,
+				0487D11218FEF72A00E44917 /* generic_business-71.png */,
+				0487D11318FEF72A00E44917 /* shopping-71.png */,
+				0487D11418FEF72A00E44917 /* lodging-71.png */,
+				0487D11518FEF72A00E44917 /* restaurant-71.png */,
+				048FDA3218F5CE9F00316AA9 /* otherImages */,
+				048FD9ED18F5CE9200316AA9 /* south america */,
+				048FD93218F5CE8000316AA9 /* europe */,
+				048FD8D318F5CE7700316AA9 /* north america */,
+				048FD8BA18F5CE6100316AA9 /* ocenea */,
+				048FD81918F5CE4F00316AA9 /* asia */,
+				048FD76818F5CE4400316AA9 /* africa */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		048FD76818F5CE4400316AA9 /* africa */ = {
+			isa = PBXGroup;
+			children = (
+				04449D3F18F63AA2009D4346 /* mbujimayi.jpg */,
+				04449D3C18F638BB009D4346 /* gaborene.jpg */,
+				048FD76918F5CE4800316AA9 /* abidjan.jpg */,
+				048FD76A18F5CE4800316AA9 /* abobo.jpg */,
+				048FD76B18F5CE4800316AA9 /* accra.jpg */,
+				048FD76C18F5CE4800316AA9 /* addis_ababa.jpg */,
+				048FD76D18F5CE4800316AA9 /* alexandria.jpg */,
+				048FD76E18F5CE4800316AA9 /* algiers.jpg */,
+				048FD76F18F5CE4800316AA9 /* annaba.jpg */,
+				048FD77018F5CE4800316AA9 /* antananarivo.jpg */,
+				048FD77118F5CE4800316AA9 /* asmara.jpg */,
+				048FD77218F5CE4800316AA9 /* bab_ezzouar.jpg */,
+				048FD77318F5CE4800316AA9 /* bafoussam.jpg */,
+				048FD77418F5CE4800316AA9 /* bamako.jpg */,
+				048FD77518F5CE4800316AA9 /* bamenda.jpg */,
+				048FD77618F5CE4800316AA9 /* bangui.jpg */,
+				048FD77718F5CE4800316AA9 /* bata.jpg */,
+				048FD77818F5CE4800316AA9 /* batna.jpg */,
+				048FD77918F5CE4800316AA9 /* benghazi.jpg */,
+				048FD77A18F5CE4800316AA9 /* benguela.jpg */,
+				048FD77B18F5CE4800316AA9 /* bertoua.jpg */,
+				048FD77C18F5CE4800316AA9 /* bimbo.jpg */,
+				048FD77D18F5CE4800316AA9 /* biskra.jpg */,
+				048FD77E18F5CE4800316AA9 /* bissau.jpg */,
+				048FD77F18F5CE4800316AA9 /* blantyre.jpg */,
+				048FD78018F5CE4800316AA9 /* bobodioulasso.jpg */,
+				048FD78118F5CE4800316AA9 /* boumerdas.jpg */,
+				048FD78218F5CE4800316AA9 /* brazzaville.jpg */,
+				048FD78318F5CE4800316AA9 /* bujumbura.jpg */,
+				048FD78418F5CE4800316AA9 /* cairo.jpg */,
+				048FD78518F5CE4800316AA9 /* casablanca.jpg */,
+				048FD78618F5CE4800316AA9 /* conakry.jpg */,
+				048FD78718F5CE4800316AA9 /* constantine.jpg */,
+				048FD78818F5CE4800316AA9 /* cotonou.jpg */,
+				048FD78918F5CE4800316AA9 /* dakar.jpg */,
+				048FD78A18F5CE4800316AA9 /* djibouti.jpg */,
+				048FD78B18F5CE4800316AA9 /* douala.jpg */,
+				048FD78C18F5CE4800316AA9 /* fez.jpg */,
+				048FD78D18F5CE4800316AA9 /* freetown.jpg */,
+				048FD78E18F5CE4800316AA9 /* garoua.jpg */,
+				048FD78F18F5CE4800316AA9 /* giza.jpg */,
+				048FD79018F5CE4800316AA9 /* grand_dakar.jpg */,
+				048FD79118F5CE4800316AA9 /* hargeysa.jpg */,
+				048FD79218F5CE4800316AA9 /* huambo.jpg */,
+				048FD79318F5CE4800316AA9 /* ibadan.jpg */,
+				048FD79418F5CE4800316AA9 /* juba.jpg */,
+				048FD79518F5CE4800316AA9 /* kano.jpg */,
+				048FD79618F5CE4800316AA9 /* khartoum.jpg */,
+				048FD79718F5CE4800316AA9 /* kigali.jpg */,
+				048FD79818F5CE4800316AA9 /* kinshasa.jpg */,
+				048FD79918F5CE4800316AA9 /* kisangani.jpg */,
+				048FD79A18F5CE4800316AA9 /* koudougou.jpg */,
+				048FD79B18F5CE4800316AA9 /* kousseri.JPG */,
+				048FD79C18F5CE4800316AA9 /* kuito.jpg */,
+				048FD79D18F5CE4800316AA9 /* kumasi.jpg */,
+				048FD79E18F5CE4800316AA9 /* lagos.jpg */,
+				048FD79F18F5CE4800316AA9 /* libreville.jpg */,
+				048FD7A018F5CE4800316AA9 /* lilongwe.jpg */,
+				048FD7A118F5CE4800316AA9 /* lobito.jpg */,
+				048FD7A218F5CE4800316AA9 /* luanda.jpg */,
+				048FD7A318F5CE4800316AA9 /* lubango.jpg */,
+				048FD7A418F5CE4800316AA9 /* lubumbashi.jpg */,
+				048FD7A518F5CE4800316AA9 /* maputo.jpg */,
+				048FD7A618F5CE4800316AA9 /* maroua.jpg */,
+				048FD7A718F5CE4800316AA9 /* maseru.jpg */,
+				048FD7A818F5CE4800316AA9 /* matola.jpg */,
+				048FD7A918F5CE4800316AA9 /* mogadishu.jpg */,
+				048FD7AA18F5CE4800316AA9 /* mokolo.jpg */,
+				048FD7AB18F5CE4800316AA9 /* monrovia.jpg */,
+				048FD7AC18F5CE4800316AA9 /* moroni.jpg */,
+				048FD7AD18F5CE4800316AA9 /* moundou.jpg */,
+				048FD7AE18F5CE4800316AA9 /* muyinga.jpg */,
+				048FD7AF18F5CE4800316AA9 /* ndalatando.jpg */,
+				048FD7B018F5CE4800316AA9 /* ndjamena.jpg */,
+				048FD7B118F5CE4800316AA9 /* ngaoundere.jpg */,
+				048FD7B218F5CE4800316AA9 /* niamey.jpg */,
+				048FD7B318F5CE4800316AA9 /* nouakchott.jpg */,
+				048FD7B418F5CE4800316AA9 /* omdurman.jpg */,
+				048FD7B518F5CE4800316AA9 /* oran.jpg */,
+				048FD7B618F5CE4800316AA9 /* ouagadougou.jpg */,
+				048FD7B718F5CE4800316AA9 /* parakou.jpg */,
+				048FD7B818F5CE4800316AA9 /* pointe_noire.jpg */,
+				048FD7B918F5CE4800316AA9 /* portonovo.jpg */,
+				048FD7BA18F5CE4800316AA9 /* rabat.jpg */,
+				048FD7BB18F5CE4800316AA9 /* sarh.jpg */,
+				048FD7BC18F5CE4800316AA9 /* setif.jpg */,
+				048FD7BD18F5CE4800316AA9 /* tebessa.jpg */,
+				048FD7BE18F5CE4800316AA9 /* tomasina.jpg */,
+				048FD7BF18F5CE4800316AA9 /* tripoli.jpg */,
+				048FD7C018F5CE4800316AA9 /* yaounde.jpg */,
+			);
+			path = africa;
+			sourceTree = "<group>";
+		};
+		048FD81918F5CE4F00316AA9 /* asia */ = {
+			isa = PBXGroup;
+			children = (
+				048FD81A18F5CE4F00316AA9 /* abu_dhabi.jpg */,
+				048FD81B18F5CE4F00316AA9 /* al_ahmadi.jpg */,
+				048FD81C18F5CE4F00316AA9 /* al_hudaydah.jpg */,
+				048FD81D18F5CE4F00316AA9 /* al_mawsil_al.jpg */,
+				048FD81E18F5CE4F00316AA9 /* aleppo.jpg */,
+				048FD81F18F5CE4F00316AA9 /* almaty.jpg */,
+				048FD82018F5CE4F00316AA9 /* amman.jpg */,
+				048FD82118F5CE4F00316AA9 /* ankara.jpg */,
+				048FD82218F5CE4F00316AA9 /* ashqabat.jpg */,
+				048FD82318F5CE4F00316AA9 /* baghdad.jpg */,
+				048FD82418F5CE4F00316AA9 /* bangkok.jpg */,
+				048FD82518F5CE4F00316AA9 /* banglore.jpg */,
+				048FD82618F5CE4F00316AA9 /* basra.jpg */,
+				048FD82718F5CE4F00316AA9 /* beijing.jpg */,
+				048FD82818F5CE4F00316AA9 /* beirut.jpg */,
+				048FD82918F5CE4F00316AA9 /* bishkek.jpg */,
+				048FD82A18F5CE4F00316AA9 /* burma.jpg */,
+				048FD82B18F5CE4F00316AA9 /* busan.jpg */,
+				048FD82C18F5CE4F00316AA9 /* chittagong.jpg */,
+				048FD82D18F5CE4F00316AA9 /* colombo.jpg */,
+				048FD82E18F5CE4F00316AA9 /* damascus.jpg */,
+				048FD82F18F5CE4F00316AA9 /* delhi.jpg */,
+				048FD83018F5CE4F00316AA9 /* dhaka.jpg */,
+				048FD83118F5CE4F00316AA9 /* doha.jpg */,
+				048FD83218F5CE4F00316AA9 /* dubai.jpg */,
+				048FD83318F5CE4F00316AA9 /* dushanbe.jpg */,
+				048FD83418F5CE4F00316AA9 /* faisalabad.jpg */,
+				048FD83518F5CE4F00316AA9 /* galkissa.jpg */,
+				048FD83618F5CE4F00316AA9 /* havana.jpg */,
+				048FD83718F5CE4F00316AA9 /* hulu_langat.jpg */,
+				048FD83818F5CE4F00316AA9 /* isfahan.jpg */,
+				048FD83918F5CE4F00316AA9 /* istanbul.jpg */,
+				048FD83A18F5CE4F00316AA9 /* izmir.jpg */,
+				048FD83B18F5CE4F00316AA9 /* jakarta.jpg */,
+				048FD83C18F5CE4F00316AA9 /* jeddah.jpg */,
+				048FD83D18F5CE4F00316AA9 /* jerusalem.jpg */,
+				048FD83E18F5CE4F00316AA9 /* kabul.jpg */,
+				048FD83F18F5CE4F00316AA9 /* kandahar.jpg */,
+				048FD84018F5CE4F00316AA9 /* karachi.jpg */,
+				048FD84118F5CE4F00316AA9 /* kathmandu.jpg */,
+				048FD84218F5CE4F00316AA9 /* khulna.jpg */,
+				048FD84318F5CE4F00316AA9 /* kolkata.jpg */,
+				048FD84418F5CE4F00316AA9 /* kuala_lumpur.jpg */,
+				048FD84518F5CE4F00316AA9 /* lahore.jpg */,
+				048FD84618F5CE4F00316AA9 /* manama.jpg */,
+				048FD84718F5CE4F00316AA9 /* mandalay.jpg */,
+				048FD84818F5CE4F00316AA9 /* mashhad.jpg */,
+				048FD84918F5CE4F00316AA9 /* mecca.jpg */,
+				048FD84A18F5CE4F00316AA9 /* medan.jpg */,
+				048FD84B18F5CE4F00316AA9 /* medina.jpg */,
+				048FD84C18F5CE4F00316AA9 /* moscow.jpg */,
+				048FD84D18F5CE4F00316AA9 /* mueang_samut.jpg */,
+				048FD84E18F5CE4F00316AA9 /* mumbai.jpg */,
+				048FD84F18F5CE4F00316AA9 /* muscat.jpg */,
+				048FD85018F5CE4F00316AA9 /* namangan.jpg */,
+				048FD85118F5CE4F00316AA9 /* nanchong.jpg */,
+				048FD85218F5CE4F00316AA9 /* nizhny_novgorod.jpg */,
+				048FD85318F5CE4F00316AA9 /* novosibirsk.jpg */,
+				048FD85418F5CE4F00316AA9 /* osaka.jpg */,
+				048FD85518F5CE4F00316AA9 /* petaling.jpg */,
+				048FD85618F5CE4F00316AA9 /* pyongyang.jpg */,
+				048FD85718F5CE4F00316AA9 /* ras.jpg */,
+				048FD85818F5CE4F00316AA9 /* riyadh.jpg */,
+				048FD85918F5CE4F00316AA9 /* saint_petersburg.jpg */,
+				048FD85A18F5CE4F00316AA9 /* sanaa.jpg */,
+				048FD85B18F5CE4F00316AA9 /* santiago.jpg */,
+				048FD85C18F5CE4F00316AA9 /* seoul.jpg */,
+				048FD85D18F5CE4F00316AA9 /* shanghai.jpg */,
+				048FD85E18F5CE4F00316AA9 /* sharjah.jpg */,
+				048FD85F18F5CE4F00316AA9 /* singapore.jpg */,
+				048FD86018F5CE4F00316AA9 /* surabaya.jpg */,
+				048FD86118F5CE4F00316AA9 /* tashkent.jpg */,
+				048FD86218F5CE4F00316AA9 /* tehran.jpg */,
+				048FD86318F5CE4F00316AA9 /* tokyo.jpg */,
+				048FD86418F5CE4F00316AA9 /* ulanbaatar.jpg */,
+				048FD86518F5CE4F00316AA9 /* vientiane.jpg */,
+				048FD86618F5CE4F00316AA9 /* yangon.jpg */,
+				048FD86718F5CE4F00316AA9 /* yekaterinburg.jpg */,
+				048FD86818F5CE4F00316AA9 /* yokohama.jpg */,
+				048FD86918F5CE4F00316AA9 /* zhumadian.jpg */,
+			);
+			name = asia;
+			path = africa/asia;
+			sourceTree = "<group>";
+		};
+		048FD8BA18F5CE6100316AA9 /* ocenea */ = {
+			isa = PBXGroup;
+			children = (
+				048FD8BB18F5CE6300316AA9 /* adelaide.jpg */,
+				048FD8BC18F5CE6300316AA9 /* auckland.jpg */,
+				048FD8BD18F5CE6300316AA9 /* brisbane.jpg */,
+				048FD8BE18F5CE6300316AA9 /* christchurch.jpg */,
+				048FD8BF18F5CE6300316AA9 /* manukau.jpg */,
+				048FD8C018F5CE6300316AA9 /* melbourne.jpg */,
+				048FD8C118F5CE6300316AA9 /* north_shore.jpg */,
+				048FD8C218F5CE6300316AA9 /* perth.jpg */,
+				048FD8C318F5CE6300316AA9 /* port_moresby.jpg */,
+				048FD8C418F5CE6300316AA9 /* sydney.jpg */,
+				048FD8C518F5CE6300316AA9 /* waitakere.jpg */,
+				048FD8C618F5CE6300316AA9 /* wellington.jpg */,
+			);
+			path = ocenea;
+			sourceTree = "<group>";
+		};
+		048FD8D318F5CE7700316AA9 /* north america */ = {
+			isa = PBXGroup;
+			children = (
+				048FD8D418F5CE7900316AA9 /* atlanta.jpg */,
+				048FD8D518F5CE7900316AA9 /* boston.jpg */,
+				048FD8D618F5CE7900316AA9 /* calgary.jpg */,
+				048FD8D718F5CE7900316AA9 /* camaguey.jpg */,
+				048FD8D818F5CE7900316AA9 /* carrefour.jpg */,
+				048FD8D918F5CE7900316AA9 /* choloma.jpg */,
+				048FD8DA18F5CE7900316AA9 /* dallas.jpg */,
+				048FD8DB18F5CE7900316AA9 /* delmas.jpg */,
+				048FD8DC18F5CE7900316AA9 /* detroit.jpg */,
+				048FD8DD18F5CE7900316AA9 /* ecatepec.jpg */,
+				048FD8DE18F5CE7900316AA9 /* guadalajara.jpg */,
+				048FD8DF18F5CE7900316AA9 /* guatemala_city.jpg */,
+				048FD8E018F5CE7900316AA9 /* havana_n_a.jpg */,
+				048FD8E118F5CE7900316AA9 /* holguin.jpg */,
+				048FD8E218F5CE7900316AA9 /* iztapalapa.jpg */,
+				048FD8E318F5CE7900316AA9 /* kingston.jpg */,
+				048FD8E418F5CE7900316AA9 /* laventille.jpg */,
+				048FD8E518F5CE7900316AA9 /* leon.jpg */,
+				048FD8E618F5CE7900316AA9 /* los_angeles.jpg */,
+				048FD8E718F5CE7900316AA9 /* managua.jpg */,
+				048FD8E818F5CE7900316AA9 /* mexico_city.jpg */,
+				048FD8E918F5CE7900316AA9 /* miami.jpg */,
+				048FD8EA18F5CE7900316AA9 /* mixco.jpg */,
+				048FD8EB18F5CE7900316AA9 /* montreal.jpg */,
+				048FD8EC18F5CE7900316AA9 /* nassau.jpg */,
+				048FD8ED18F5CE7900316AA9 /* new_kingston.jpg */,
+				048FD8EE18F5CE7900316AA9 /* new_york.jpg */,
+				048FD8EF18F5CE7900316AA9 /* panama_city.jpg */,
+				048FD8F018F5CE7900316AA9 /* philadelphia.jpg */,
+				048FD8F118F5CE7900316AA9 /* port_au_prince.jpg */,
+				048FD8F218F5CE7900316AA9 /* san_jose.jpg */,
+				048FD8F318F5CE7900316AA9 /* san_muglieto.jpg */,
+				048FD8F418F5CE7900316AA9 /* san_pedro_de_macoris.jpg */,
+				048FD8F518F5CE7900316AA9 /* san_pedro_sula.jpg */,
+				048FD8F618F5CE7900316AA9 /* san_salvador.jpg */,
+				048FD8F718F5CE7900316AA9 /* santa_ana.jpg */,
+				048FD8F818F5CE7900316AA9 /* santiago_de_cuba.jpg */,
+				048FD8F918F5CE7900316AA9 /* santiago_de_los.jpg */,
+				048FD8FA18F5CE7900316AA9 /* santo_domingo.jpg */,
+				048FD8FB18F5CE7900316AA9 /* santo_domingo_oesto.jpg */,
+				048FD8FC18F5CE7900316AA9 /* soyapango.jpg */,
+				048FD8FD18F5CE7900316AA9 /* spanish_town.jpg */,
+				048FD8FE18F5CE7900316AA9 /* tegucigalpa.jpg */,
+				048FD8FF18F5CE7900316AA9 /* toronto.jpg */,
+				048FD90018F5CE7900316AA9 /* vancouver.jpg */,
+				048FD90118F5CE7900316AA9 /* villa_nueva.jpg */,
+				048FD90218F5CE7900316AA9 /* washington.jpg */,
+			);
+			path = "north america";
+			sourceTree = "<group>";
+		};
+		048FD93218F5CE8000316AA9 /* europe */ = {
+			isa = PBXGroup;
+			children = (
+				048FD93318F5CE8200316AA9 /* aarhus.jpg */,
+				048FD93418F5CE8200316AA9 /* amadora.jpg */,
+				048FD93518F5CE8200316AA9 /* amsterdam.jpg */,
+				048FD93618F5CE8200316AA9 /* antwerp.jpg */,
+				048FD93718F5CE8200316AA9 /* athens.jpg */,
+				048FD93818F5CE8200316AA9 /* baku.jpg */,
+				048FD93918F5CE8200316AA9 /* banja_luka.jpg */,
+				048FD93A18F5CE8200316AA9 /* barcelona.jpg */,
+				048FD93B18F5CE8200316AA9 /* basel.jpg */,
+				048FD93C18F5CE8200316AA9 /* belgrade.jpg */,
+				048FD93D18F5CE8200316AA9 /* bergen.jpg */,
+				048FD93E18F5CE8200316AA9 /* berlin.jpg */,
+				048FD93F18F5CE8200316AA9 /* berne.jpg */,
+				048FD94018F5CE8200316AA9 /* birmingham.jpg */,
+				048FD94118F5CE8200316AA9 /* bratislava.jpg */,
+				048FD94218F5CE8200316AA9 /* brussels.jpg */,
+				048FD94318F5CE8200316AA9 /* bucharest.jpg */,
+				048FD94418F5CE8200316AA9 /* budapest.jpg */,
+				048FD94518F5CE8200316AA9 /* cluj_napoca.jpg */,
+				048FD94618F5CE8200316AA9 /* cologne.jpg */,
+				048FD94718F5CE8200316AA9 /* copenhagon.jpg */,
+				048FD94818F5CE8200316AA9 /* cork.jpg */,
+				048FD94918F5CE8200316AA9 /* debrecen.jpg */,
+				048FD94A18F5CE8200316AA9 /* dnipropetrovsk.jpg */,
+				048FD94B18F5CE8200316AA9 /* donetsk.jpg */,
+				048FD94C18F5CE8200316AA9 /* dublin.jpg */,
+				048FD94D18F5CE8200316AA9 /* espoo.jpg */,
+				048FD94E18F5CE8200316AA9 /* ganja.jpg */,
+				048FD94F18F5CE8200316AA9 /* geneva.jpg */,
+				048FD95018F5CE8200316AA9 /* glasglow.jpg */,
+				048FD95118F5CE8200316AA9 /* gomel.jpg */,
+				048FD95218F5CE8200316AA9 /* gothenburg.jpg */,
+				048FD95318F5CE8200316AA9 /* graza.jpg */,
+				048FD95418F5CE8200316AA9 /* hamburg.jpg */,
+				048FD95518F5CE8200316AA9 /* helsinki.jpg */,
+				048FD95618F5CE8200316AA9 /* iasi.jpg */,
+				048FD95718F5CE8200316AA9 /* kaunas.jpg */,
+				048FD95818F5CE8200316AA9 /* kharkiv.jpg */,
+				048FD95918F5CE8200316AA9 /* kosice.jpg */,
+				048FD95A18F5CE8200316AA9 /* krakow.jpg */,
+				048FD95B18F5CE8200316AA9 /* kutaisi.jpg */,
+				048FD95C18F5CE8200316AA9 /* kyiv_ukraine.jpg */,
+				048FD95D18F5CE8200316AA9 /* leeds.jpg */,
+				048FD95E18F5CE8200316AA9 /* limassol.jpg */,
+				048FD95F18F5CE8200316AA9 /* lisbon.jpg */,
+				048FD96018F5CE8200316AA9 /* liverpool.jpg */,
+				048FD96118F5CE8200316AA9 /* ljubljana.jpg */,
+				048FD96218F5CE8200316AA9 /* lodz.jpg */,
+				048FD96318F5CE8200316AA9 /* london.jpg */,
+				048FD96418F5CE8200316AA9 /* lyon.jpg */,
+				048FD96518F5CE8200316AA9 /* madrid.jpg */,
+				048FD96618F5CE8200316AA9 /* malmo.jpg */,
+				048FD96718F5CE8200316AA9 /* manchester.jpg */,
+				048FD96818F5CE8200316AA9 /* marseille.jpg */,
+				048FD96918F5CE8200316AA9 /* milan.jpg */,
+				048FD96A18F5CE8200316AA9 /* minsk.jpg */,
+				048FD96B18F5CE8200316AA9 /* munich.jpg */,
+				048FD96C18F5CE8200316AA9 /* naples.jpg */,
+				048FD96D18F5CE8200316AA9 /* nautical.jpg */,
+				048FD96E18F5CE8200316AA9 /* nicosia.jpg */,
+				048FD96F18F5CE8200316AA9 /* nis.jpg */,
+				048FD97018F5CE8200316AA9 /* novi_sad.jpg */,
+				048FD97118F5CE8200316AA9 /* odense.jpg */,
+				048FD97218F5CE8200316AA9 /* oslo.jpg */,
+				048FD97318F5CE8200316AA9 /* paris.jpg */,
+				048FD97418F5CE8200316AA9 /* plovdiv.jpg */,
+				048FD97518F5CE8200316AA9 /* podgorica.jpg */,
+				048FD97618F5CE8200316AA9 /* posto.jpg */,
+				048FD97718F5CE8200316AA9 /* reykjavik.jpg */,
+				048FD97818F5CE8200316AA9 /* rome.jpg */,
+				048FD97918F5CE8200316AA9 /* rotterdam.jpg */,
+				048FD97A18F5CE8200316AA9 /* sarajevo.jpg */,
+				048FD97B18F5CE8200316AA9 /* seville.jpg */,
+				048FD97C18F5CE8200316AA9 /* skopje.jpg */,
+				048FD97D18F5CE8200316AA9 /* sofia.jpg */,
+				048FD97E18F5CE8200316AA9 /* split.jpg */,
+				048FD97F18F5CE8200316AA9 /* stockholm.jpg */,
+				048FD98018F5CE8200316AA9 /* tallinn.jpg */,
+				048FD98118F5CE8200316AA9 /* tampere.jpg */,
+				048FD98218F5CE8200316AA9 /* tbilisi.jpg */,
+				048FD98318F5CE8200316AA9 /* the_hague.jpg */,
+				048FD98418F5CE8200316AA9 /* thessaloniki.jpg */,
+				048FD98518F5CE8200316AA9 /* tirana.jpg */,
+				048FD98618F5CE8200316AA9 /* toulouse.jpg */,
+				048FD98718F5CE8200316AA9 /* turin.jpg */,
+				048FD98818F5CE8200316AA9 /* utrecht.jpg */,
+				048FD98918F5CE8200316AA9 /* valencia_europe.jpg */,
+				048FD98A18F5CE8200316AA9 /* vienna.jpg */,
+				048FD98B18F5CE8200316AA9 /* vilnius.jpg */,
+				048FD98C18F5CE8200316AA9 /* warsaw.jpg */,
+				048FD98D18F5CE8200316AA9 /* yerevan.jpg */,
+				048FD98E18F5CE8200316AA9 /* zagreb.jpg */,
+				048FD98F18F5CE8200316AA9 /* zurich.jpg */,
+			);
+			path = europe;
+			sourceTree = "<group>";
+		};
+		048FD9ED18F5CE9200316AA9 /* south america */ = {
+			isa = PBXGroup;
+			children = (
+				048FD9EE18F5CE9400316AA9 /* antofagasta.jpg */,
+				048FD9EF18F5CE9400316AA9 /* arequipa.jpg */,
+				048FD9F018F5CE9400316AA9 /* asuncion.jpg */,
+				048FD9F118F5CE9400316AA9 /* barranquilla.jpg */,
+				048FD9F218F5CE9400316AA9 /* belo_horizonte.jpg */,
+				048FD9F318F5CE9400316AA9 /* bogota.jpg */,
+				048FD9F418F5CE9400316AA9 /* brasilia.jpg */,
+				048FD9F518F5CE9400316AA9 /* buenos_aries.jpg */,
+				048FD9F618F5CE9400316AA9 /* caracas.jpg */,
+				048FD9F718F5CE9400316AA9 /* ciudad_del_este.jpg */,
+				048FD9F818F5CE9400316AA9 /* cochabamba.jpg */,
+				048FD9F918F5CE9400316AA9 /* cordoba.jpg */,
+				048FD9FA18F5CE9400316AA9 /* fortaleza.jpg */,
+				048FD9FB18F5CE9400316AA9 /* georgetown.jpg */,
+				048FD9FC18F5CE9400316AA9 /* guayaquil.jpg */,
+				048FD9FD18F5CE9400316AA9 /* la_paz.jpg */,
+				048FD9FE18F5CE9400316AA9 /* lima.jpg */,
+				048FD9FF18F5CE9400316AA9 /* maracaibo.jpg */,
+				048FDA0018F5CE9400316AA9 /* maracay.jpg */,
+				048FDA0118F5CE9400316AA9 /* medellin.jpg */,
+				048FDA0218F5CE9400316AA9 /* mendoza.jpg */,
+				048FDA0318F5CE9400316AA9 /* montevideo.jpg */,
+				048FDA0418F5CE9400316AA9 /* paramaribo.jpg */,
+				048FDA0518F5CE9400316AA9 /* puente_alto.jpg */,
+				048FDA0618F5CE9400316AA9 /* quito.jpg */,
+				048FDA0718F5CE9400316AA9 /* rio_di.jpg */,
+				048FDA0818F5CE9400316AA9 /* rosario.jpg */,
+				048FDA0918F5CE9400316AA9 /* salvador.jpg */,
+				048FDA0A18F5CE9400316AA9 /* santa_cruz.jpg */,
+				048FDA0B18F5CE9400316AA9 /* santiago_de_cali.jpg */,
+				048FDA0C18F5CE9400316AA9 /* santiago_s_a.jpg */,
+				048FDA0D18F5CE9400316AA9 /* sao_paulo.jpg */,
+				048FDA0E18F5CE9400316AA9 /* sucre.jpg */,
+				048FDA0F18F5CE9400316AA9 /* valencia.jpg */,
+			);
+			path = "south america";
+			sourceTree = "<group>";
+		};
+		048FDA3218F5CE9F00316AA9 /* otherImages */ = {
+			isa = PBXGroup;
+			children = (
+				04BD507818FD4CFD00D4A035 /* log.png */,
+				04912C8918FC712C0023B036 /* Google-Maps-icon.png */,
+				044468C118FC1BB000676C7C /* 001442-3d-transparent-glass-icon-media-a-media3.png */,
+				044468BF18FC1BAB00676C7C /* SNP_3005064_en_v1.png */,
+				044468BD18FC1BA400676C7C /* web.png */,
+				048EA24318F5A0CC0052D030 /* home_icon.png */,
+				04F54EA918F1D6DA00A244DB /* map.png */,
+				0487184518F118A700F92DDB /* contacts.png */,
+				0487183E18F1188F00F92DDB /* telephone-icon-grey.png */,
+				0487183F18F1188F00F92DDB /* Adressbook.png */,
+				040AB1EA18F0876A00AC2686 /* webImg.png */,
+				04A740AF18EFD99200B37473 /* mapBtn.png */,
+				04EF6D7318EF548000180AE6 /* map_marker.png */,
+				046F304E18EE1EFF007F98CE /* attr.png */,
+				046F304F18EE1EFF007F98CE /* Restaurant.png */,
+				046F305018EE1EFF007F98CE /* shopping.jpg */,
+				046F305118EE1EFF007F98CE /* hotel.png */,
+				046F305218EE1EFF007F98CE /* night.png */,
+				04EFBE9018E258D600483297 /* ag_continent_africa.png */,
+				04EFBE9118E258D700483297 /* ag_continent_america.png */,
+				04EFBE9218E258D700483297 /* ag_continent_asia.png */,
+				04EFBE9318E258D700483297 /* ag_continent_euro.png */,
+				04EFBE9418E258D700483297 /* ag_continent_north_america.png */,
+				04EFBE9518E258D700483297 /* ag_continent_oceania.png */,
+			);
+			name = otherImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0489C41E18D60CAA00578688 /* TravelGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489C43D18D60CAB00578688 /* Build configuration list for PBXNativeTarget "TravelGuide" */;
+			buildPhases = (
+				0489C41B18D60CAA00578688 /* Sources */,
+				0489C41C18D60CAA00578688 /* Frameworks */,
+				0489C41D18D60CAA00578688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelGuide;
+			productName = MyCityGuide;
+			productReference = 0489C41F18D60CAA00578688 /* TravelGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0489C41618D60CAA00578688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0489C41918D60CAA00578688 /* Build configuration list for PBXProject "TravelGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0489C41418D60CAA00578688;
+			productRefGroup = 0489C42018D60CAA00578688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0489C41E18D60CAA00578688 /* TravelGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0489C41D18D60CAA00578688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489C42E18D60CAA00578688 /* InfoPlist.strings in Resources */,
+				0489C43A18D60CAB00578688 /* ViewController.xib in Resources */,
+				0489C45518D60E6700578688 /* CityViewController.xib in Resources */,
+				0489C45A18D6185E00578688 /* cityGuideController.xib in Resources */,
+				0462FA8918DA554000ED0211 /* DownloadGuideViewController.xib in Resources */,
+				04EFBE9618E258D700483297 /* ag_continent_africa.png in Resources */,
+				04EFBE9718E258D700483297 /* ag_continent_america.png in Resources */,
+				04EFBE9818E258D700483297 /* ag_continent_asia.png in Resources */,
+				04EFBE9918E258D700483297 /* ag_continent_euro.png in Resources */,
+				04EFBE9A18E258D700483297 /* ag_continent_north_america.png in Resources */,
+				04EFBE9B18E258D700483297 /* ag_continent_oceania.png in Resources */,
+				04E2B23718E3E99600822E0D /* entitlements.plist in Resources */,
+				043087B218EB49340017469D /* cityDetailViewController.xib in Resources */,
+				048C496C18EDDE38001E731F /* mynewdb.sqlite in Resources */,
+				046F305318EE1EFF007F98CE /* attr.png in Resources */,
+				046F305418EE1EFF007F98CE /* Restaurant.png in Resources */,
+				046F305518EE1EFF007F98CE /* shopping.jpg in Resources */,
+				046F305618EE1EFF007F98CE /* hotel.png in Resources */,
+				046F305718EE1EFF007F98CE /* night.png in Resources */,
+				04C4A8C118EF4700003F8125 /* MapViewController.xib in Resources */,
+				04EF6D7418EF548000180AE6 /* map_marker.png in Resources */,
+				04885A8118EFB53300175576 /* TypeDetailViewController.xib in Resources */,
+				04A740B018EFD99200B37473 /* mapBtn.png in Resources */,
+				040AB1ED18F0876A00AC2686 /* webImg.png in Resources */,
+				0487184118F1188F00F92DDB /* telephone-icon-grey.png in Resources */,
+				0487184218F1188F00F92DDB /* Adressbook.png in Resources */,
+				0487184618F118A700F92DDB /* contacts.png in Resources */,
+				04F54EAA18F1D6DA00A244DB /* map.png in Resources */,
+				048839BD18F309DF00775233 /* TableViewController.xib in Resources */,
+				048EA24418F5A0CC0052D030 /* home_icon.png in Resources */,
+				048FD7C118F5CE4800316AA9 /* abidjan.jpg in Resources */,
+				048FD7C218F5CE4800316AA9 /* abobo.jpg in Resources */,
+				048FD7C318F5CE4800316AA9 /* accra.jpg in Resources */,
+				048FD7C418F5CE4800316AA9 /* addis_ababa.jpg in Resources */,
+				048FD7C518F5CE4800316AA9 /* alexandria.jpg in Resources */,
+				048FD7C618F5CE4800316AA9 /* algiers.jpg in Resources */,
+				048FD7C718F5CE4800316AA9 /* annaba.jpg in Resources */,
+				048FD7C818F5CE4800316AA9 /* antananarivo.jpg in Resources */,
+				048FD7C918F5CE4800316AA9 /* asmara.jpg in Resources */,
+				048FD7CA18F5CE4800316AA9 /* bab_ezzouar.jpg in Resources */,
+				048FD7CB18F5CE4800316AA9 /* bafoussam.jpg in Resources */,
+				048FD7CC18F5CE4800316AA9 /* bamako.jpg in Resources */,
+				048FD7CD18F5CE4800316AA9 /* bamenda.jpg in Resources */,
+				048FD7CE18F5CE4800316AA9 /* bangui.jpg in Resources */,
+				048FD7CF18F5CE4800316AA9 /* bata.jpg in Resources */,
+				048FD7D018F5CE4800316AA9 /* batna.jpg in Resources */,
+				048FD7D118F5CE4800316AA9 /* benghazi.jpg in Resources */,
+				048FD7D218F5CE4800316AA9 /* benguela.jpg in Resources */,
+				048FD7D318F5CE4800316AA9 /* bertoua.jpg in Resources */,
+				048FD7D418F5CE4800316AA9 /* bimbo.jpg in Resources */,
+				048FD7D518F5CE4800316AA9 /* biskra.jpg in Resources */,
+				048FD7D618F5CE4800316AA9 /* bissau.jpg in Resources */,
+				048FD7D718F5CE4800316AA9 /* blantyre.jpg in Resources */,
+				048FD7D818F5CE4800316AA9 /* bobodioulasso.jpg in Resources */,
+				048FD7D918F5CE4800316AA9 /* boumerdas.jpg in Resources */,
+				048FD7DA18F5CE4800316AA9 /* brazzaville.jpg in Resources */,
+				048FD7DB18F5CE4800316AA9 /* bujumbura.jpg in Resources */,
+				048FD7DC18F5CE4800316AA9 /* cairo.jpg in Resources */,
+				048FD7DD18F5CE4800316AA9 /* casablanca.jpg in Resources */,
+				048FD7DE18F5CE4800316AA9 /* conakry.jpg in Resources */,
+				048FD7DF18F5CE4800316AA9 /* constantine.jpg in Resources */,
+				048FD7E018F5CE4800316AA9 /* cotonou.jpg in Resources */,
+				048FD7E118F5CE4800316AA9 /* dakar.jpg in Resources */,
+				048FD7E218F5CE4800316AA9 /* djibouti.jpg in Resources */,
+				048FD7E318F5CE4800316AA9 /* douala.jpg in Resources */,
+				048FD7E418F5CE4800316AA9 /* fez.jpg in Resources */,
+				048FD7E518F5CE4800316AA9 /* freetown.jpg in Resources */,
+				048FD7E618F5CE4800316AA9 /* garoua.jpg in Resources */,
+				048FD7E718F5CE4800316AA9 /* giza.jpg in Resources */,
+				048FD7E818F5CE4800316AA9 /* grand_dakar.jpg in Resources */,
+				048FD7E918F5CE4800316AA9 /* hargeysa.jpg in Resources */,
+				048FD7EA18F5CE4800316AA9 /* huambo.jpg in Resources */,
+				048FD7EB18F5CE4800316AA9 /* ibadan.jpg in Resources */,
+				048FD7EC18F5CE4800316AA9 /* juba.jpg in Resources */,
+				048FD7ED18F5CE4800316AA9 /* kano.jpg in Resources */,
+				048FD7EE18F5CE4800316AA9 /* khartoum.jpg in Resources */,
+				048FD7EF18F5CE4800316AA9 /* kigali.jpg in Resources */,
+				048FD7F018F5CE4800316AA9 /* kinshasa.jpg in Resources */,
+				048FD7F118F5CE4800316AA9 /* kisangani.jpg in Resources */,
+				048FD7F218F5CE4800316AA9 /* koudougou.jpg in Resources */,
+				048FD7F318F5CE4800316AA9 /* kousseri.JPG in Resources */,
+				048FD7F418F5CE4800316AA9 /* kuito.jpg in Resources */,
+				048FD7F518F5CE4800316AA9 /* kumasi.jpg in Resources */,
+				048FD7F618F5CE4800316AA9 /* lagos.jpg in Resources */,
+				048FD7F718F5CE4800316AA9 /* libreville.jpg in Resources */,
+				048FD7F818F5CE4800316AA9 /* lilongwe.jpg in Resources */,
+				048FD7F918F5CE4800316AA9 /* lobito.jpg in Resources */,
+				048FD7FA18F5CE4800316AA9 /* luanda.jpg in Resources */,
+				048FD7FB18F5CE4800316AA9 /* lubango.jpg in Resources */,
+				048FD7FC18F5CE4800316AA9 /* lubumbashi.jpg in Resources */,
+				048FD7FD18F5CE4800316AA9 /* maputo.jpg in Resources */,
+				048FD7FE18F5CE4800316AA9 /* maroua.jpg in Resources */,
+				048FD7FF18F5CE4800316AA9 /* maseru.jpg in Resources */,
+				048FD80018F5CE4800316AA9 /* matola.jpg in Resources */,
+				048FD80118F5CE4800316AA9 /* mogadishu.jpg in Resources */,
+				048FD80218F5CE4800316AA9 /* mokolo.jpg in Resources */,
+				048FD80318F5CE4800316AA9 /* monrovia.jpg in Resources */,
+				048FD80418F5CE4800316AA9 /* moroni.jpg in Resources */,
+				048FD80518F5CE4800316AA9 /* moundou.jpg in Resources */,
+				048FD80618F5CE4800316AA9 /* muyinga.jpg in Resources */,
+				048FD80718F5CE4800316AA9 /* ndalatando.jpg in Resources */,
+				048FD80818F5CE4800316AA9 /* ndjamena.jpg in Resources */,
+				048FD80918F5CE4800316AA9 /* ngaoundere.jpg in Resources */,
+				048FD80A18F5CE4800316AA9 /* niamey.jpg in Resources */,
+				048FD80B18F5CE4800316AA9 /* nouakchott.jpg in Resources */,
+				048FD80C18F5CE4800316AA9 /* omdurman.jpg in Resources */,
+				048FD80D18F5CE4800316AA9 /* oran.jpg in Resources */,
+				048FD80E18F5CE4800316AA9 /* ouagadougou.jpg in Resources */,
+				048FD80F18F5CE4800316AA9 /* parakou.jpg in Resources */,
+				048FD81018F5CE4800316AA9 /* pointe_noire.jpg in Resources */,
+				048FD81118F5CE4800316AA9 /* portonovo.jpg in Resources */,
+				048FD81218F5CE4800316AA9 /* rabat.jpg in Resources */,
+				048FD81318F5CE4800316AA9 /* sarh.jpg in Resources */,
+				048FD81418F5CE4800316AA9 /* setif.jpg in Resources */,
+				048FD81518F5CE4800316AA9 /* tebessa.jpg in Resources */,
+				048FD81618F5CE4800316AA9 /* tomasina.jpg in Resources */,
+				048FD81718F5CE4800316AA9 /* tripoli.jpg in Resources */,
+				048FD81818F5CE4800316AA9 /* yaounde.jpg in Resources */,
+				048FD86A18F5CE4F00316AA9 /* abu_dhabi.jpg in Resources */,
+				048FD86B18F5CE4F00316AA9 /* al_ahmadi.jpg in Resources */,
+				048FD86C18F5CE4F00316AA9 /* al_hudaydah.jpg in Resources */,
+				048FD86D18F5CE4F00316AA9 /* al_mawsil_al.jpg in Resources */,
+				048FD86E18F5CE4F00316AA9 /* aleppo.jpg in Resources */,
+				048FD86F18F5CE4F00316AA9 /* almaty.jpg in Resources */,
+				048FD87018F5CE4F00316AA9 /* amman.jpg in Resources */,
+				048FD87118F5CE4F00316AA9 /* ankara.jpg in Resources */,
+				048FD87218F5CE4F00316AA9 /* ashqabat.jpg in Resources */,
+				048FD87318F5CE4F00316AA9 /* baghdad.jpg in Resources */,
+				048FD87418F5CE4F00316AA9 /* bangkok.jpg in Resources */,
+				048FD87518F5CE4F00316AA9 /* banglore.jpg in Resources */,
+				048FD87618F5CE4F00316AA9 /* basra.jpg in Resources */,
+				048FD87718F5CE4F00316AA9 /* beijing.jpg in Resources */,
+				048FD87818F5CE4F00316AA9 /* beirut.jpg in Resources */,
+				048FD87918F5CE4F00316AA9 /* bishkek.jpg in Resources */,
+				048FD87A18F5CE4F00316AA9 /* burma.jpg in Resources */,
+				048FD87B18F5CE4F00316AA9 /* busan.jpg in Resources */,
+				048FD87C18F5CE4F00316AA9 /* chittagong.jpg in Resources */,
+				048FD87D18F5CE4F00316AA9 /* colombo.jpg in Resources */,
+				048FD87E18F5CE4F00316AA9 /* damascus.jpg in Resources */,
+				048FD87F18F5CE4F00316AA9 /* delhi.jpg in Resources */,
+				048FD88018F5CE4F00316AA9 /* dhaka.jpg in Resources */,
+				048FD88118F5CE4F00316AA9 /* doha.jpg in Resources */,
+				048FD88218F5CE4F00316AA9 /* dubai.jpg in Resources */,
+				048FD88318F5CE4F00316AA9 /* dushanbe.jpg in Resources */,
+				048FD88418F5CE4F00316AA9 /* faisalabad.jpg in Resources */,
+				048FD88518F5CE4F00316AA9 /* galkissa.jpg in Resources */,
+				048FD88618F5CE4F00316AA9 /* havana.jpg in Resources */,
+				048FD88718F5CE4F00316AA9 /* hulu_langat.jpg in Resources */,
+				048FD88818F5CE4F00316AA9 /* isfahan.jpg in Resources */,
+				048FD88918F5CE4F00316AA9 /* istanbul.jpg in Resources */,
+				048FD88A18F5CE4F00316AA9 /* izmir.jpg in Resources */,
+				048FD88B18F5CE4F00316AA9 /* jakarta.jpg in Resources */,
+				048FD88C18F5CE4F00316AA9 /* jeddah.jpg in Resources */,
+				048FD88D18F5CE4F00316AA9 /* jerusalem.jpg in Resources */,
+				048FD88E18F5CE4F00316AA9 /* kabul.jpg in Resources */,
+				048FD88F18F5CE4F00316AA9 /* kandahar.jpg in Resources */,
+				048FD89018F5CE4F00316AA9 /* karachi.jpg in Resources */,
+				048FD89118F5CE4F00316AA9 /* kathmandu.jpg in Resources */,
+				048FD89218F5CE4F00316AA9 /* khulna.jpg in Resources */,
+				048FD89318F5CE4F00316AA9 /* kolkata.jpg in Resources */,
+				048FD89418F5CE4F00316AA9 /* kuala_lumpur.jpg in Resources */,
+				048FD89518F5CE4F00316AA9 /* lahore.jpg in Resources */,
+				048FD89618F5CE4F00316AA9 /* manama.jpg in Resources */,
+				048FD89718F5CE4F00316AA9 /* mandalay.jpg in Resources */,
+				048FD89818F5CE4F00316AA9 /* mashhad.jpg in Resources */,
+				048FD89918F5CE4F00316AA9 /* mecca.jpg in Resources */,
+				048FD89A18F5CE4F00316AA9 /* medan.jpg in Resources */,
+				048FD89B18F5CE4F00316AA9 /* medina.jpg in Resources */,
+				048FD89C18F5CE4F00316AA9 /* moscow.jpg in Resources */,
+				048FD89D18F5CE4F00316AA9 /* mueang_samut.jpg in Resources */,
+				048FD89E18F5CE4F00316AA9 /* mumbai.jpg in Resources */,
+				048FD89F18F5CE4F00316AA9 /* muscat.jpg in Resources */,
+				048FD8A018F5CE4F00316AA9 /* namangan.jpg in Resources */,
+				048FD8A118F5CE4F00316AA9 /* nanchong.jpg in Resources */,
+				048FD8A218F5CE4F00316AA9 /* nizhny_novgorod.jpg in Resources */,
+				048FD8A318F5CE4F00316AA9 /* novosibirsk.jpg in Resources */,
+				048FD8A418F5CE4F00316AA9 /* osaka.jpg in Resources */,
+				048FD8A518F5CE4F00316AA9 /* petaling.jpg in Resources */,
+				048FD8A618F5CE4F00316AA9 /* pyongyang.jpg in Resources */,
+				048FD8A718F5CE4F00316AA9 /* ras.jpg in Resources */,
+				048FD8A818F5CE4F00316AA9 /* riyadh.jpg in Resources */,
+				048FD8A918F5CE4F00316AA9 /* saint_petersburg.jpg in Resources */,
+				048FD8AA18F5CE4F00316AA9 /* sanaa.jpg in Resources */,
+				048FD8AB18F5CE4F00316AA9 /* santiago.jpg in Resources */,
+				048FD8AC18F5CE4F00316AA9 /* seoul.jpg in Resources */,
+				048FD8AD18F5CE4F00316AA9 /* shanghai.jpg in Resources */,
+				048FD8AE18F5CE4F00316AA9 /* sharjah.jpg in Resources */,
+				048FD8AF18F5CE4F00316AA9 /* singapore.jpg in Resources */,
+				048FD8B018F5CE4F00316AA9 /* surabaya.jpg in Resources */,
+				048FD8B118F5CE4F00316AA9 /* tashkent.jpg in Resources */,
+				048FD8B218F5CE4F00316AA9 /* tehran.jpg in Resources */,
+				048FD8B318F5CE4F00316AA9 /* tokyo.jpg in Resources */,
+				048FD8B418F5CE4F00316AA9 /* ulanbaatar.jpg in Resources */,
+				048FD8B518F5CE4F00316AA9 /* vientiane.jpg in Resources */,
+				048FD8B618F5CE4F00316AA9 /* yangon.jpg in Resources */,
+				048FD8B718F5CE4F00316AA9 /* yekaterinburg.jpg in Resources */,
+				048FD8B818F5CE4F00316AA9 /* yokohama.jpg in Resources */,
+				048FD8B918F5CE4F00316AA9 /* zhumadian.jpg in Resources */,
+				048FD8C718F5CE6300316AA9 /* adelaide.jpg in Resources */,
+				048FD8C818F5CE6300316AA9 /* auckland.jpg in Resources */,
+				048FD8C918F5CE6300316AA9 /* brisbane.jpg in Resources */,
+				048FD8CA18F5CE6300316AA9 /* christchurch.jpg in Resources */,
+				048FD8CB18F5CE6300316AA9 /* manukau.jpg in Resources */,
+				048FD8CC18F5CE6300316AA9 /* melbourne.jpg in Resources */,
+				048FD8CD18F5CE6300316AA9 /* north_shore.jpg in Resources */,
+				048FD8CE18F5CE6300316AA9 /* perth.jpg in Resources */,
+				048FD8CF18F5CE6300316AA9 /* port_moresby.jpg in Resources */,
+				048FD8D018F5CE6300316AA9 /* sydney.jpg in Resources */,
+				048FD8D118F5CE6300316AA9 /* waitakere.jpg in Resources */,
+				048FD8D218F5CE6300316AA9 /* wellington.jpg in Resources */,
+				048FD90318F5CE7900316AA9 /* atlanta.jpg in Resources */,
+				048FD90418F5CE7900316AA9 /* boston.jpg in Resources */,
+				048FD90518F5CE7900316AA9 /* calgary.jpg in Resources */,
+				048FD90618F5CE7900316AA9 /* camaguey.jpg in Resources */,
+				048FD90718F5CE7900316AA9 /* carrefour.jpg in Resources */,
+				048FD90818F5CE7900316AA9 /* choloma.jpg in Resources */,
+				048FD90918F5CE7900316AA9 /* dallas.jpg in Resources */,
+				048FD90A18F5CE7900316AA9 /* delmas.jpg in Resources */,
+				048FD90B18F5CE7900316AA9 /* detroit.jpg in Resources */,
+				048FD90C18F5CE7900316AA9 /* ecatepec.jpg in Resources */,
+				048FD90D18F5CE7900316AA9 /* guadalajara.jpg in Resources */,
+				048FD90E18F5CE7900316AA9 /* guatemala_city.jpg in Resources */,
+				048FD90F18F5CE7900316AA9 /* havana_n_a.jpg in Resources */,
+				048FD91018F5CE7900316AA9 /* holguin.jpg in Resources */,
+				048FD91118F5CE7900316AA9 /* iztapalapa.jpg in Resources */,
+				048FD91218F5CE7900316AA9 /* kingston.jpg in Resources */,
+				048FD91318F5CE7900316AA9 /* laventille.jpg in Resources */,
+				048FD91418F5CE7900316AA9 /* leon.jpg in Resources */,
+				048FD91518F5CE7900316AA9 /* los_angeles.jpg in Resources */,
+				048FD91618F5CE7900316AA9 /* managua.jpg in Resources */,
+				048FD91718F5CE7900316AA9 /* mexico_city.jpg in Resources */,
+				048FD91818F5CE7900316AA9 /* miami.jpg in Resources */,
+				048FD91918F5CE7900316AA9 /* mixco.jpg in Resources */,
+				048FD91A18F5CE7900316AA9 /* montreal.jpg in Resources */,
+				048FD91B18F5CE7900316AA9 /* nassau.jpg in Resources */,
+				048FD91C18F5CE7900316AA9 /* new_kingston.jpg in Resources */,
+				048FD91D18F5CE7900316AA9 /* new_york.jpg in Resources */,
+				048FD91E18F5CE7900316AA9 /* panama_city.jpg in Resources */,
+				048FD91F18F5CE7900316AA9 /* philadelphia.jpg in Resources */,
+				048FD92018F5CE7900316AA9 /* port_au_prince.jpg in Resources */,
+				048FD92118F5CE7900316AA9 /* san_jose.jpg in Resources */,
+				048FD92218F5CE7900316AA9 /* san_muglieto.jpg in Resources */,
+				048FD92318F5CE7900316AA9 /* san_pedro_de_macoris.jpg in Resources */,
+				048FD92418F5CE7900316AA9 /* san_pedro_sula.jpg in Resources */,
+				048FD92518F5CE7900316AA9 /* san_salvador.jpg in Resources */,
+				048FD92618F5CE7900316AA9 /* santa_ana.jpg in Resources */,
+				048FD92718F5CE7900316AA9 /* santiago_de_cuba.jpg in Resources */,
+				048FD92818F5CE7900316AA9 /* santiago_de_los.jpg in Resources */,
+				048FD92918F5CE7900316AA9 /* santo_domingo.jpg in Resources */,
+				048FD92A18F5CE7900316AA9 /* santo_domingo_oesto.jpg in Resources */,
+				048FD92B18F5CE7900316AA9 /* soyapango.jpg in Resources */,
+				048FD92C18F5CE7900316AA9 /* spanish_town.jpg in Resources */,
+				048FD92D18F5CE7900316AA9 /* tegucigalpa.jpg in Resources */,
+				048FD92E18F5CE7900316AA9 /* toronto.jpg in Resources */,
+				048FD92F18F5CE7900316AA9 /* vancouver.jpg in Resources */,
+				048FD93018F5CE7900316AA9 /* villa_nueva.jpg in Resources */,
+				048FD93118F5CE7900316AA9 /* washington.jpg in Resources */,
+				048FD99018F5CE8200316AA9 /* aarhus.jpg in Resources */,
+				048FD99118F5CE8200316AA9 /* amadora.jpg in Resources */,
+				048FD99218F5CE8200316AA9 /* amsterdam.jpg in Resources */,
+				048FD99318F5CE8200316AA9 /* antwerp.jpg in Resources */,
+				048FD99418F5CE8200316AA9 /* athens.jpg in Resources */,
+				048FD99518F5CE8200316AA9 /* baku.jpg in Resources */,
+				048FD99618F5CE8200316AA9 /* banja_luka.jpg in Resources */,
+				048FD99718F5CE8200316AA9 /* barcelona.jpg in Resources */,
+				048FD99818F5CE8200316AA9 /* basel.jpg in Resources */,
+				048FD99918F5CE8200316AA9 /* belgrade.jpg in Resources */,
+				048FD99A18F5CE8200316AA9 /* bergen.jpg in Resources */,
+				048FD99B18F5CE8200316AA9 /* berlin.jpg in Resources */,
+				048FD99C18F5CE8200316AA9 /* berne.jpg in Resources */,
+				048FD99D18F5CE8200316AA9 /* birmingham.jpg in Resources */,
+				048FD99E18F5CE8200316AA9 /* bratislava.jpg in Resources */,
+				048FD99F18F5CE8200316AA9 /* brussels.jpg in Resources */,
+				048FD9A018F5CE8200316AA9 /* bucharest.jpg in Resources */,
+				048FD9A118F5CE8200316AA9 /* budapest.jpg in Resources */,
+				048FD9A218F5CE8200316AA9 /* cluj_napoca.jpg in Resources */,
+				048FD9A318F5CE8200316AA9 /* cologne.jpg in Resources */,
+				048FD9A418F5CE8200316AA9 /* copenhagon.jpg in Resources */,
+				048FD9A518F5CE8200316AA9 /* cork.jpg in Resources */,
+				048FD9A618F5CE8200316AA9 /* debrecen.jpg in Resources */,
+				048FD9A718F5CE8200316AA9 /* dnipropetrovsk.jpg in Resources */,
+				048FD9A818F5CE8200316AA9 /* donetsk.jpg in Resources */,
+				048FD9A918F5CE8200316AA9 /* dublin.jpg in Resources */,
+				048FD9AA18F5CE8200316AA9 /* espoo.jpg in Resources */,
+				048FD9AB18F5CE8200316AA9 /* ganja.jpg in Resources */,
+				048FD9AC18F5CE8200316AA9 /* geneva.jpg in Resources */,
+				048FD9AD18F5CE8200316AA9 /* glasglow.jpg in Resources */,
+				048FD9AE18F5CE8200316AA9 /* gomel.jpg in Resources */,
+				048FD9AF18F5CE8200316AA9 /* gothenburg.jpg in Resources */,
+				048FD9B018F5CE8200316AA9 /* graza.jpg in Resources */,
+				048FD9B118F5CE8200316AA9 /* hamburg.jpg in Resources */,
+				048FD9B218F5CE8200316AA9 /* helsinki.jpg in Resources */,
+				048FD9B318F5CE8200316AA9 /* iasi.jpg in Resources */,
+				048FD9B418F5CE8200316AA9 /* kaunas.jpg in Resources */,
+				048FD9B518F5CE8200316AA9 /* kharkiv.jpg in Resources */,
+				048FD9B618F5CE8200316AA9 /* kosice.jpg in Resources */,
+				048FD9B718F5CE8200316AA9 /* krakow.jpg in Resources */,
+				048FD9B818F5CE8200316AA9 /* kutaisi.jpg in Resources */,
+				048FD9B918F5CE8200316AA9 /* kyiv_ukraine.jpg in Resources */,
+				048FD9BA18F5CE8200316AA9 /* leeds.jpg in Resources */,
+				048FD9BB18F5CE8200316AA9 /* limassol.jpg in Resources */,
+				048FD9BC18F5CE8200316AA9 /* lisbon.jpg in Resources */,
+				048FD9BD18F5CE8200316AA9 /* liverpool.jpg in Resources */,
+				048FD9BE18F5CE8200316AA9 /* ljubljana.jpg in Resources */,
+				048FD9BF18F5CE8200316AA9 /* lodz.jpg in Resources */,
+				048FD9C018F5CE8200316AA9 /* london.jpg in Resources */,
+				048FD9C118F5CE8200316AA9 /* lyon.jpg in Resources */,
+				048FD9C218F5CE8200316AA9 /* madrid.jpg in Resources */,
+				048FD9C318F5CE8200316AA9 /* malmo.jpg in Resources */,
+				048FD9C418F5CE8200316AA9 /* manchester.jpg in Resources */,
+				048FD9C518F5CE8200316AA9 /* marseille.jpg in Resources */,
+				048FD9C618F5CE8200316AA9 /* milan.jpg in Resources */,
+				048FD9C718F5CE8200316AA9 /* minsk.jpg in Resources */,
+				048FD9C818F5CE8200316AA9 /* munich.jpg in Resources */,
+				048FD9C918F5CE8200316AA9 /* naples.jpg in Resources */,
+				048FD9CA18F5CE8200316AA9 /* nautical.jpg in Resources */,
+				048FD9CB18F5CE8200316AA9 /* nicosia.jpg in Resources */,
+				048FD9CC18F5CE8200316AA9 /* nis.jpg in Resources */,
+				048FD9CD18F5CE8200316AA9 /* novi_sad.jpg in Resources */,
+				048FD9CE18F5CE8200316AA9 /* odense.jpg in Resources */,
+				048FD9CF18F5CE8200316AA9 /* oslo.jpg in Resources */,
+				048FD9D018F5CE8200316AA9 /* paris.jpg in Resources */,
+				048FD9D118F5CE8200316AA9 /* plovdiv.jpg in Resources */,
+				048FD9D218F5CE8200316AA9 /* podgorica.jpg in Resources */,
+				048FD9D318F5CE8200316AA9 /* posto.jpg in Resources */,
+				048FD9D418F5CE8200316AA9 /* reykjavik.jpg in Resources */,
+				048FD9D518F5CE8200316AA9 /* rome.jpg in Resources */,
+				048FD9D618F5CE8200316AA9 /* rotterdam.jpg in Resources */,
+				048FD9D718F5CE8200316AA9 /* sarajevo.jpg in Resources */,
+				048FD9D818F5CE8200316AA9 /* seville.jpg in Resources */,
+				048FD9D918F5CE8200316AA9 /* skopje.jpg in Resources */,
+				048FD9DA18F5CE8200316AA9 /* sofia.jpg in Resources */,
+				048FD9DB18F5CE8200316AA9 /* split.jpg in Resources */,
+				048FD9DC18F5CE8200316AA9 /* stockholm.jpg in Resources */,
+				048FD9DD18F5CE8200316AA9 /* tallinn.jpg in Resources */,
+				048FD9DE18F5CE8200316AA9 /* tampere.jpg in Resources */,
+				048FD9DF18F5CE8200316AA9 /* tbilisi.jpg in Resources */,
+				048FD9E018F5CE8200316AA9 /* the_hague.jpg in Resources */,
+				048FD9E118F5CE8200316AA9 /* thessaloniki.jpg in Resources */,
+				048FD9E218F5CE8200316AA9 /* tirana.jpg in Resources */,
+				048FD9E318F5CE8200316AA9 /* toulouse.jpg in Resources */,
+				048FD9E418F5CE8200316AA9 /* turin.jpg in Resources */,
+				048FD9E518F5CE8200316AA9 /* utrecht.jpg in Resources */,
+				048FD9E618F5CE8200316AA9 /* valencia_europe.jpg in Resources */,
+				048FD9E718F5CE8200316AA9 /* vienna.jpg in Resources */,
+				048FD9E818F5CE8200316AA9 /* vilnius.jpg in Resources */,
+				048FD9E918F5CE8200316AA9 /* warsaw.jpg in Resources */,
+				048FD9EA18F5CE8200316AA9 /* yerevan.jpg in Resources */,
+				048FD9EB18F5CE8200316AA9 /* zagreb.jpg in Resources */,
+				048FD9EC18F5CE8200316AA9 /* zurich.jpg in Resources */,
+				048FDA1018F5CE9400316AA9 /* antofagasta.jpg in Resources */,
+				048FDA1118F5CE9400316AA9 /* arequipa.jpg in Resources */,
+				048FDA1218F5CE9400316AA9 /* asuncion.jpg in Resources */,
+				048FDA1318F5CE9400316AA9 /* barranquilla.jpg in Resources */,
+				048FDA1418F5CE9400316AA9 /* belo_horizonte.jpg in Resources */,
+				048FDA1518F5CE9400316AA9 /* bogota.jpg in Resources */,
+				048FDA1618F5CE9400316AA9 /* brasilia.jpg in Resources */,
+				048FDA1718F5CE9400316AA9 /* buenos_aries.jpg in Resources */,
+				048FDA1818F5CE9400316AA9 /* caracas.jpg in Resources */,
+				048FDA1918F5CE9400316AA9 /* ciudad_del_este.jpg in Resources */,
+				048FDA1A18F5CE9400316AA9 /* cochabamba.jpg in Resources */,
+				048FDA1B18F5CE9400316AA9 /* cordoba.jpg in Resources */,
+				048FDA1C18F5CE9400316AA9 /* fortaleza.jpg in Resources */,
+				048FDA1D18F5CE9400316AA9 /* georgetown.jpg in Resources */,
+				048FDA1E18F5CE9400316AA9 /* guayaquil.jpg in Resources */,
+				048FDA1F18F5CE9400316AA9 /* la_paz.jpg in Resources */,
+				048FDA2018F5CE9400316AA9 /* lima.jpg in Resources */,
+				048FDA2118F5CE9400316AA9 /* maracaibo.jpg in Resources */,
+				048FDA2218F5CE9400316AA9 /* maracay.jpg in Resources */,
+				048FDA2318F5CE9400316AA9 /* medellin.jpg in Resources */,
+				048FDA2418F5CE9400316AA9 /* mendoza.jpg in Resources */,
+				048FDA2518F5CE9400316AA9 /* montevideo.jpg in Resources */,
+				048FDA2618F5CE9400316AA9 /* paramaribo.jpg in Resources */,
+				048FDA2718F5CE9400316AA9 /* puente_alto.jpg in Resources */,
+				048FDA2818F5CE9400316AA9 /* quito.jpg in Resources */,
+				048FDA2918F5CE9400316AA9 /* rio_di.jpg in Resources */,
+				048FDA2A18F5CE9400316AA9 /* rosario.jpg in Resources */,
+				048FDA2B18F5CE9400316AA9 /* salvador.jpg in Resources */,
+				048FDA2C18F5CE9400316AA9 /* santa_cruz.jpg in Resources */,
+				048FDA2D18F5CE9400316AA9 /* santiago_de_cali.jpg in Resources */,
+				048FDA2E18F5CE9400316AA9 /* santiago_s_a.jpg in Resources */,
+				048FDA2F18F5CE9400316AA9 /* sao_paulo.jpg in Resources */,
+				048FDA3018F5CE9400316AA9 /* sucre.jpg in Resources */,
+				048FDA3118F5CE9400316AA9 /* valencia.jpg in Resources */,
+				04449D3D18F638BB009D4346 /* gaborene.jpg in Resources */,
+				04449D4018F63AA2009D4346 /* mbujimayi.jpg in Resources */,
+				044468BE18FC1BA400676C7C /* web.png in Resources */,
+				044468C018FC1BAB00676C7C /* SNP_3005064_en_v1.png in Resources */,
+				044468C218FC1BB000676C7C /* 001442-3d-transparent-glass-icon-media-a-media3.png in Resources */,
+				04912C8A18FC712C0023B036 /* Google-Maps-icon.png in Resources */,
+				048F0A8818FD0D0E009E4913 /* Default.png in Resources */,
+				04BD507918FD4CFD00D4A035 /* log.png in Resources */,
+				04BD507B18FD4D1100D4A035 /* logo.png in Resources */,
+				0487D11618FEF72A00E44917 /* bar-71.png in Resources */,
+				0487D11718FEF72A00E44917 /* generic_business-71.png in Resources */,
+				0487D11818FEF72A00E44917 /* shopping-71.png in Resources */,
+				0487D11918FEF72A00E44917 /* lodging-71.png in Resources */,
+				0487D11A18FEF72A00E44917 /* restaurant-71.png in Resources */,
+				04969FCB18FFB86C00150B83 /* worship_hindu-71.png in Resources */,
+				04969FCC18FFB86C00150B83 /* library-71.png in Resources */,
+				04969FCD18FFB86C00150B83 /* museum-71.png in Resources */,
+				04969FCE18FFB86C00150B83 /* generic_recreational-71.png in Resources */,
+				04969FCF18FFB86C00150B83 /* art_gallery-71.png in Resources */,
+				04969FD018FFB86C00150B83 /* worship_general-71.png in Resources */,
+				04649088190E7825001226E7 /* downloadedCityGuidesClass.xib in Resources */,
+				0484F21C190E882F00DE9F10 /* NextViewOfDownloadClass.xib in Resources */,
+				047D318E190EA4E50026FA14 /* listofviewOfclass.xib in Resources */,
+				0439193F190EC36F0028787C /* cafe-71.png in Resources */,
+				0471B77A190ECEDD009E74F0 /* ListDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489C41B18D60CAA00578688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489C43018D60CAA00578688 /* main.m in Sources */,
+				0489C43418D60CAA00578688 /* AppDelegate.m in Sources */,
+				0489C43718D60CAA00578688 /* ViewController.m in Sources */,
+				0489C45418D60E6700578688 /* CityViewController.m in Sources */,
+				0489C45918D6185E00578688 /* cityGuideController.m in Sources */,
+				0462FA8818DA554000ED0211 /* DownloadGuideViewController.m in Sources */,
+				043087B118EB49340017469D /* cityDetailViewController.m in Sources */,
+				04C40AE918EB89F50038BE70 /* ExistingDatabase.m in Sources */,
+				04FD266718EE2DC2008AA924 /* jsonClass.m in Sources */,
+				04C4A8C018EF4700003F8125 /* MapViewController.m in Sources */,
+				04885A8018EFB53300175576 /* TypeDetailViewController.m in Sources */,
+				048839BC18F309DF00775233 /* TableViewController.m in Sources */,
+				0488FD8818F3A88800DD3D7E /* uipopover+iphone.m in Sources */,
+				0490BABF1903AA410004C14E /* placessDetailData.m in Sources */,
+				043795EB1903B3F100EEA9CD /* tempDataBase.m in Sources */,
+				04649087190E7825001226E7 /* downloadedCityGuidesClass.m in Sources */,
+				0484F21B190E882F00DE9F10 /* NextViewOfDownloadClass.m in Sources */,
+				047D318D190EA4E50026FA14 /* listofviewOfclass.m in Sources */,
+				0471B779190ECEDD009E74F0 /* ListDetailView.m in Sources */,
+				041998471910F98600B2508F /* MapPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0489C42C18D60CAA00578688 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489C42D18D60CAA00578688 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0489C43818D60CAB00578688 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489C43918D60CAB00578688 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0489C43B18D60CAB00578688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				SDKROOT = iphoneos5.0;
+			};
+			name = Debug;
+		};
+		0489C43C18D60CAB00578688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				SDKROOT = iphoneos5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0489C43E18D60CAB00578688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCityGuide/TravelGuide-Prefix.pch";
+				INFOPLIST_FILE = "MyCityGuide/TravelGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TravelGuide;
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0489C43F18D60CAB00578688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCityGuide/TravelGuide-Prefix.pch";
+				INFOPLIST_FILE = "MyCityGuide/TravelGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TravelGuide;
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04E2B23318E3E72C00822E0D /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				SDKROOT = iphoneos5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		04E2B23418E3E72C00822E0D /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Hunka (W899676D8W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCityGuide/TravelGuide-Prefix.pch";
+				INFOPLIST_FILE = "MyCityGuide/TravelGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TravelGuide;
+				PROVISIONING_PROFILE = "54CF4947-B932-427D-841E-B12521538794";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0489C41918D60CAA00578688 /* Build configuration list for PBXProject "TravelGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489C43B18D60CAB00578688 /* Debug */,
+				0489C43C18D60CAB00578688 /* Release */,
+				04E2B23318E3E72C00822E0D /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489C43D18D60CAB00578688 /* Build configuration list for PBXNativeTarget "TravelGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489C43E18D60CAB00578688 /* Debug */,
+				0489C43F18D60CAB00578688 /* Release */,
+				04E2B23418E3E72C00822E0D /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0489C41618D60CAA00578688 /* Project object */;
+}

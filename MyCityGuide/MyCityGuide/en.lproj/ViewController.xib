@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="AfView" destination="119" id="137"/>
+                <outlet property="EuView" destination="110" id="134"/>
+                <outlet property="EuropeLab" destination="111" id="129"/>
+                <outlet property="SAmView" destination="116" id="136"/>
+                <outlet property="Viewbanner" destination="146" id="147"/>
+                <outlet property="africaLab" destination="120" id="127"/>
+                <outlet property="asiaLab" destination="114" id="128"/>
+                <outlet property="asview" destination="113" id="135"/>
+                <outlet property="nAmView" destination="107" id="133"/>
+                <outlet property="northAmLab" destination="108" id="130"/>
+                <outlet property="oCView" destination="122" id="138"/>
+                <outlet property="oceaniaLab" destination="123" id="131"/>
+                <outlet property="southAmLab" destination="117" id="132"/>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select Continent" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="106">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <view contentMode="scaleToFill" id="107">
+                    <rect key="frame" x="6" y="30" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="North America" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="12" id="108">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_north_america.png" id="109">
+                            <rect key="frame" x="0.0" y="34" width="100" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="110">
+                    <rect key="frame" x="110" y="30" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="Europe" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="111">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_euro.png" id="112">
+                            <rect key="frame" x="0.0" y="34" width="100" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="113">
+                    <rect key="frame" x="214" y="30" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="Asia" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="114">
+                            <rect key="frame" x="0.0" y="0.0" width="99" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_asia.png" id="115">
+                            <rect key="frame" x="0.0" y="34" width="99" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="116">
+                    <rect key="frame" x="6" y="222" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="South America" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="117">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_america.png" id="118">
+                            <rect key="frame" x="0.0" y="34" width="100" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="119">
+                    <rect key="frame" x="110" y="222" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="Africa" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="120">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_africa.png" id="121">
+                            <rect key="frame" x="0.0" y="34" width="100" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="122">
+                    <rect key="frame" x="214" y="222" width="100" height="185"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="left" text="Oceania" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="123">
+                            <rect key="frame" x="0.0" y="0.0" width="99" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.005422316957" green="0.036728553470000001" blue="0.20652174949999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" image="ag_continent_oceania.png" id="124">
+                            <rect key="frame" x="0.0" y="34" width="99" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="146">
+                    <rect key="frame" x="0.0" y="412" width="320" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ag_continent_africa.png" width="200" height="200"/>
+        <image name="ag_continent_america.png" width="200" height="200"/>
+        <image name="ag_continent_asia.png" width="200" height="200"/>
+        <image name="ag_continent_euro.png" width="200" height="200"/>
+        <image name="ag_continent_north_america.png" width="200" height="200"/>
+        <image name="ag_continent_oceania.png" width="200" height="200"/>
+    </resources>
+</document>
